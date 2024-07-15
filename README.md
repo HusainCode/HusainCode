@@ -2,16 +2,19 @@
 
 ## Certifications
 
+<p>
+  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
+  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
+  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
+</p>
+
 ### Linux Essentials Certified
-![Linux Essentials Certified](https://github.com/HusainCode/HusainCode/blob/main/Images/Essentials-Linux_250_0.webp)
 - **Issuer:** Linux Professional Institute (LPI)
 
 ### Microsoft Certified: Azure Data Fundamentals
-![Microsoft Certified: Azure Data Fundamentals](https://github.com/HusainCode/HusainCode/blob/main/Images/azuredata.jpg)
 - **Issuer:** Microsoft
 
 ### Certified Blockchain Expert
-![Certified Blockchain Expert](https://github.com/HusainCode/HusainCode/blob/main/Images/blcokchain.png)
 - **Issuer:** Blockchain Council
 
 ## Languages and Tools
