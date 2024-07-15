@@ -1,13 +1,4 @@
-# Hi there, I'm [Your Name] 👋
-
-## About Me
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- ⚡ Fun fact: ...
+# Hi there, I'm Husain 👋
 
 ## Certifications
 
@@ -25,6 +16,8 @@
 
 ## Languages and Tools
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact)
+# Python
+# C/C++
 
 ## Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](yourlinkedinurl)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/husain-alshaikhahmed-a6892617b)
