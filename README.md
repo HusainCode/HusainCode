@@ -18,7 +18,7 @@
 - **Issuer:** Blockchain Council
 
 ## Languages and Tools
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact)
+[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact)
 - Python
 - C/C++
 - Java
