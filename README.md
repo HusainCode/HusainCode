@@ -1,5 +1,5 @@
 Hi there, I'm Husain 👋
-Welcome to my GitHub profile! I am passionate about building software solutions and continuously expanding my knowledge. I love working with Linux and plan to pursue the Red Hat Administrator certification, along with many others in the future.
+I'm passionate about building software solutions and expanding my learning. I love Linux and will soon pursue the Red Hat Administrator certification and many more.
 
 Certifications
 <div align="center">
@@ -15,7 +15,7 @@ Certified Blockchain Expert
 Issuer: Blockchain Council
 Languages and Tools
 
-Programming Languages:
+Languages:
 Python
 C/C++
 Java
