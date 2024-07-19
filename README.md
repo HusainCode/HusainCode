@@ -32,7 +32,7 @@ public:
 };
 
 int main() {
-    // Initialize the object with your information
+    // Initialize the object
     Person husain("Husain", "building software solutions", "Texas", "Red Hat Administrator");
 
     // Call the method to print the introduction
@@ -45,9 +45,9 @@ int main() {
 ## Certifications
 
 <div align="center">
-  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
-  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
-  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
+  <img src="Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
+  <img src="Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
+  <img src="Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
 </div>
 
 ### Linux Essentials Certified
@@ -61,13 +61,19 @@ int main() {
 
 ## Languages and Tools
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical)
+<div align="center">
+    <img src="Images/python.svg" alt="Python" width="40" height="40" />
+    <img src="Images/c.svg" alt="C" width="40" height="40" />
+    <img src="Images/java.svg" alt="Java" width="40" height="40" />
+    <img src="Images/cplusplus.svg" alt="C++" width="40" height="40" />
+    <img src="Images/mysql.svg" alt="MySQL" width="40" height="40" />
+    <img src="Images/postgresql.svg" alt="SQL" width="40" height="40" />
+    <img src="Images/visualstudio.svg" alt="Visual Studio" width="40" height="40" />
+    <img src="Images/javascript.svg" alt="JavaScript" width="40" height="40" />
+    <img src="Images/linux.svg" alt="Linux" width="40" height="40" />
+</div>
 
-- **Languages:**
-  - Python
-  - C/C++
-  - Java
-  - JavaScript
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical)
 
 ## Connect with Me
 
