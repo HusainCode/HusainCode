@@ -34,7 +34,7 @@ int main() {
 ```
 ## Certifications
 
-<div align="center">
+<div align="left">
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
