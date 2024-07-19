@@ -1,7 +1,5 @@
 # Hi there, I'm Husain 👋
 
-I'm passionate about building software solutions and continuously expanding my knowledge. I love Linux and will soon pursue the Red Hat Administrator certification and many more.
-
 ## About Me
 
 ```cpp
@@ -40,8 +38,6 @@ int main() {
 
     return 0;
 }
-
-
 ## Languages and Tools
 
 <div align="center">
