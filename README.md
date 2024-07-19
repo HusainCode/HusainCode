@@ -1,10 +1,10 @@
 # Hi there, I'm Husain 👋
 
+I'm passionate about building software solutions and continuously expanding my knowledge. I love Linux and will soon pursue the Red Hat Administrator certification and many more.
+
 ## About Me
 
-I am passionate about creating innovative software solutions and am committed to continuously expanding my expertise. With a deep appreciation for Linux, I am eager to pursue the Red Hat Administrator certification and additional advanced credentials in the near future.
-
-```cpp
+```c++
 #include <iostream>
 #include <string>
 
@@ -12,25 +12,24 @@ using namespace std;
 
 // Function to introduce yourself
 void introduceYourself(string name, string passion, string location, string future_certification) {
-  // Printing the introduction message
-  cout << "Hi there, I'm " << name << " 👋" << endl;
-  cout << "I'm passionate about " << passion << " and continuously expanding my knowledge." << endl;
-  cout << "I love " << location << " and will soon pursue the " << future_certification << " certification and many more." << endl;
+    // Printing the introduction message
+    cout << "Hi there, I'm " << name << " 👋" << endl;
+    cout << "I'm passionate about " << passion << " and continuously expanding my knowledge." << endl;
+    cout << "I love " << location << " and will soon pursue the " << future_certification << " certification and many more." << endl;
 }
 
 int main() {
-  // Variables to store user information
-  string name = "Husain";
-  string passion = "building software solutions";
-  string location = "Texas";
-  string future_certification = "Red Hat Administrator";
+    // Variables to store user information
+    string name = "Husain";
+    string passion = "building software solutions";
+    string location = "Texas";
+    string future_certification = "Red Hat Administrator";
 
-  // Calling the function to print the introduction message
-  introduceYourself(name, passion, location, future_certification);
+    // Calling the function to print the introduction message
+    introduceYourself(name, passion, location, future_certification);
 
-  return 0;
+    return 0;
 }
-
 
 
 ## Certifications
