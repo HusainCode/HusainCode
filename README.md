@@ -60,8 +60,10 @@ int main() {
   - JavaScript
 
 ### Connect with Me
-<div align="center">
+
+<div align="left">
   <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
   </a>
 </div>
+
