@@ -4,9 +4,7 @@
 
 I am passionate about creating innovative software solutions and am committed to continuously expanding my expertise. With a deep appreciation for Linux, I am eager to pursue the Red Hat Administrator certification and additional advanced credentials in the near future.
 
-
 ```cpp
-
 #include <iostream>
 #include <string>
 
@@ -32,6 +30,7 @@ int main() {
 
   return 0;
 }
+
 
 
 ## Certifications
