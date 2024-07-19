@@ -33,7 +33,7 @@ int main() {
 }
 
 
-## Certifications
+### Certifications
 <div align="center">
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
@@ -59,7 +59,7 @@ int main() {
   - Java
   - JavaScript
 
-## Connect with Me
+### Connect with Me
 
 <div align="center">
   <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b">
