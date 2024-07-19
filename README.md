@@ -1,6 +1,6 @@
 # Hi there, I'm Husain 👋
 
-<p style="font-size: 18px; font-family: Arial, sans-serif;">
+<p style="font-size: 25px; font-family: Arial, sans-serif;">
   I am passionate about creating innovative software solutions and am committed to continuously expanding my expertise. With a deep 
   appreciation for Linux, I am eager to pursue the Red Hat Administrator certification and additional advanced credentials in the near 
   future.
