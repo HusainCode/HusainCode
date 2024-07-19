@@ -2,12 +2,9 @@
 
 ## About Me
 
-# Hi there, I'm Husain 👋
-
 I am passionate about creating innovative software solutions and am committed to continuously expanding my expertise. With a deep appreciation for Linux, I am eager to pursue the Red Hat Administrator certification and additional advanced credentials in the near future.
 
-
-``c++
+``cpp
 #include <iostream>
 #include <string>
 
@@ -27,7 +24,7 @@ int main() {
   string passion = "building software solutions";
   string location = "Texas";
   string future_certification = "Red Hat Administrator";
-  
+
   // Calling the function to print the introduction message
   introduceYourself(name, passion, location, future_certification);
 
