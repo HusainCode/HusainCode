@@ -4,7 +4,7 @@ I'm passionate about building software solutions and continuously expanding my k
 
 ## About Me
 
-``c++
+```c++
 #include <iostream>
 #include <string>
 
@@ -31,7 +31,7 @@ int main() {
     return 0;
 }
 
-
+```
 ## Certifications
 
 <div align="center">
