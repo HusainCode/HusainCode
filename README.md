@@ -57,11 +57,14 @@ int main() {
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical)
 
-- **Languages:**
-  - <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/python.svg" alt="Python" width="30" style="vertical-align:middle; margin-right:10px;"/> Python
-  - <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cpp.svg" alt="C/C++" width="30" style="vertical-align:middle; margin-right:10px;"/> C/C++
-  - <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="30" style="vertical-align:middle; margin-right:10px;"/> Java
-  - <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/javascript.svg" alt="JavaScript" width="30" style="vertical-align:middle; margin-right:10px;"/> JavaScript
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/python.svg" alt="Python" width="40" style="vertical-align:middle; margin-right:10px;"/> Python</td>
+    <td><img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cpp.svg" alt="C/C++" width="40" style="vertical-align:middle; margin-right:10px;"/> C/C++</td>
+    <td><img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="40" style="vertical-align:middle; margin-right:10px;"/> Java</td>
+    <td><img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/javascript.svg" alt="JavaScript" width="40" style="vertical-align:middle; margin-right:10px;"/> JavaScript</td>
+  </tr>
+</table>
 
 ### Connect with Me
 
