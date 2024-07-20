@@ -1,4 +1,4 @@
-[Check out my animated introduction!](https://HusainCode.github.io/index.html)
+[Check out my animated introduction!](https://husaincode.github.io/)
 
 <hr>
 
