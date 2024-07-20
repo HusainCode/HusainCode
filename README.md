@@ -72,4 +72,9 @@ int main() {
   </a>
 </div>
 
-![Visitor Badge](https://profile-counter.glitch.me/HusainCode/count.svg)
+<div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <p>Visitor count</p>
+  <img src="https://profile-counter.glitch.me/HusainCode/count.svg" />
+</div>
+
+
