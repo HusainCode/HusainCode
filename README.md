@@ -1,5 +1,4 @@
-[Check out my animated introduction!](https://username.github.io/repository-name/index.html)
-
+(https://HusainCode.github.io/index.html)
 
 <hr>
 
