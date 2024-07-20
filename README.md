@@ -1,4 +1,6 @@
-[Check out my animated introduction!](https://husaincode.github.io/)
+# Hi there, I'm Husain 👋
+
+[Check out my animated introduction!](https://husaincode.github.io/HusainCode/)
 
 <hr>
 
