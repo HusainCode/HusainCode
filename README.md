@@ -72,8 +72,10 @@ int main() {
   </a>
 </div>
 
+<hr>
+
 <div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-  <p>Visitor count</p>
+  <p>Visitors count</p>
   <img src="https://profile-counter.glitch.me/HusainCode/count.svg" />
 </div>
 
