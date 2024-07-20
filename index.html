@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Introduction</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typewriter-effect/2.18.0/core.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+        #typing-animation {
+            font-size: 2em;
+            color: #1E90FF;
+        }
+    </style>
+</head>
+<body>
+    <div id="typing-animation"></div>
+
+    <script>
+        var app = document.getElementById('typing-animation');
+
+        var typewriter = new Typewriter(app, {
+            loop: true,
+            delay: 75,
+        });
+
+        typewriter.typeString('Hi There! 👋')
+            .pauseFor(2000)
+            .deleteAll()
+            .typeString('I\'m Husain!')
+            .pauseFor(2000)
+            .deleteAll()
+            .start();
+    </script>
+</body>
+</html>
