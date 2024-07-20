@@ -57,14 +57,16 @@ int main() {
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical)
 
-<table>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/python.svg" alt="Python" width="40" style="vertical-align:middle; margin-right:10px;"/> Python</td>
-    <td><img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cpp.svg" alt="C/C++" width="40" style="vertical-align:middle; margin-right:10px;"/> C/C++</td>
-    <td><img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="40" style="vertical-align:middle; margin-right:10px;"/> Java</td>
-    <td><img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/javascript.svg" alt="JavaScript" width="40" style="vertical-align:middle; margin-right:10px;"/> JavaScript</td>
-  </tr>
-</table>
+### Languages & Tools:
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/python.svg" alt="Python" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" alt="C" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cpp.svg" alt="C++" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/javascript.svg" alt="JavaScript" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" alt="Linux" width="40" style="margin-right: 10px;"/>
+</p>
 
 ### Connect with Me
 
