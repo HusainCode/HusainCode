@@ -71,6 +71,9 @@ int main() {
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" alt="Linux" width="40" style="margin-right: 10px;"/>
 </p>
 
+<hr>
+
+### Connect with Me
 
 <div align="left">
   <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b">
