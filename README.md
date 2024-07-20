@@ -60,13 +60,17 @@ int main() {
 ### Languages & Tools:
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/python.svg" alt="Python" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" alt="Python" width="40" style="margin-right: 10px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" alt="C" width="40" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cpp.svg" alt="C++" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" alt="C++" width="40" style="margin-right: 10px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="40" style="margin-right: 10px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/javascript.svg" alt="JavaScript" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/317755_badge_html_html5_achievement_award_icon.svg" alt="HTML" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/317756_badge_css_css3_achievement_award_icon.svg" alt="CSS" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" alt="MySQL" width="40" style="margin-right: 10px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" alt="Linux" width="40" style="margin-right: 10px;"/>
 </p>
+
 
 ### Connect with Me
 
