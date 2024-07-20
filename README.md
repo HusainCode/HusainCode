@@ -1,28 +1,5 @@
-<!-- Include TypewriterJS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typewriter-effect/2.18.0/core.min.js"></script>
+[Check out my animated introduction!](https://username.github.io/repository-name/index.html)
 
-<!-- Typing Animation Container -->
-<div align="center">
-  <span id="typing-animation" style="font-size: 20px; color: #1E90FF;"></span>
-</div>
-
-<script>
-  // Initialize TypewriterJS
-  var app = document.getElementById('typing-animation');
-
-  var typewriter = new Typewriter(app, {
-    loop: true,
-    delay: 75,
-  });
-
-  typewriter.typeString('Hi There! 👋')
-    .pauseFor(2000)
-    .deleteAll()
-    .typeString('I\'m Husain!')
-    .pauseFor(2000)
-    .deleteAll()
-    .start();
-</script>
 
 <hr>
 
