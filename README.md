@@ -72,11 +72,9 @@ int main() {
 </p>
 
 
-### Connect with Me
-
 <div align="left">
   <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/5296501_linkedin_network_linkedin%20logo_icon.svg" alt="LinkedIn Profile" width="40" style="margin-right: 10px;"/>
   </a>
 </div>
 
