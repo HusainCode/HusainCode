@@ -1,5 +1,7 @@
 # Hi there, I'm Husain 👋
 
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=HusainCode.HusainCode)
+
 <p style="font-size: 25px; font-family: Arial, sans-serif;">
   I am passionate about creating innovative software solutions and am committed to continuously expanding my expertise. With a deep 
   appreciation for Linux, I am eager to pursue the Red Hat Administrator certification and additional advanced credentials in the near 
@@ -70,7 +72,5 @@ int main() {
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
   </a>
 </div>
-
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=HusainCode.HusainCode)
 
 
