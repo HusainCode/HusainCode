@@ -1,6 +1,6 @@
 # Hi there, I'm Husain 👋
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=HusainCode.HusainCode)
+![Visitor Badge](https://komarev.com/ghpvc/?username=HusainCode&color=blue)
 
 <p style="font-size: 25px; font-family: Arial, sans-serif;">
   I am passionate about creating innovative software solutions and am committed to continuously expanding my expertise. With a deep 
