@@ -77,6 +77,8 @@ int main() {
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/317756_badge_css_css3_achievement_award_icon.svg" alt="CSS" width="40" style="margin-right: 10px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" alt="MySQL" width="40" style="margin-right: 10px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" alt="Linux" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Go-Logo_Aqua.svg" alt="Go" width="40" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/icons8-nodejs.svg" alt="Node.js" width="40" style="margin-right: 10px;"/>
 </p>
 
 <hr>
