@@ -72,13 +72,10 @@ int main() {
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" alt="C" width="40" style="margin-right: 10px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" alt="C++" width="40" style="margin-right: 10px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="40" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/javascript.svg" alt="JavaScript" width="40" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/317755_badge_html_html5_achievement_award_icon.svg" alt="HTML" width="40" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/317756_badge_css_css3_achievement_award_icon.svg" alt="CSS" width="40" style="margin-right: 10px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" alt="MySQL" width="40" style="margin-right: 13px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" alt="Linux" width="40" style="margin-right: 10px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Go-Logo_Aqua.svg" alt="Go" width="40" style="margin-right: 13px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/icons8-nodejs.svg" alt="Node.js" width="40" style="margin-right: 13px;"/>
+  
 </p>
 
 <hr>
