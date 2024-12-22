@@ -54,7 +54,7 @@ int main() {
 - **Issuer:** Blockchain Council
 
 <hr>
-### GitHub Stats
+## GitHub Stats
 
 ![Husain's GitHub stats](https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=dark)
 ![Husain's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=HusainCode&theme=dark)
