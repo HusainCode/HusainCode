@@ -1,39 +1,66 @@
 # Hi there, I'm Husain 👋
 
-<p style="font-size: 25px; font-family: poppins, sans-serif;">
-  I am passionate about creating innovative software solutions and am committed to continuously expanding my expertise. With a deep 
-  appreciation for Linux, I am eager to pursue the Red Hat Administrator certification and additional advanced credentials in the near 
-  future.
-</p>
+I am passionate about learning and aspire to become an accomplished Machine Learning Engineer. I enjoy working on perception applications using libraries like OpenCV to create innovative software solutions. I am committed to continuously expanding my expertise and contributing to building a brighter world.
+
+> **"Find a job you enjoy doing, and you will never have to work a day in your life." – Mark Twain**
+> "Once you stop learning, you start dying." – Albert Einstein
+> "Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it." – Albert Einstein
 
 ## About Me
 
-```c++
-#include <iostream>
-#include <string>
+class Introduction:
+    """
+    A class to represent a personal introduction.
+    """
 
-using namespace std;
+    def __init__(self, name, passion, location, education, specialization):
+        """
+        Initialize the Introduction object with personal attributes.
+        """
+        self.name = name
+        self.passion = passion
+        self.location = location
+        self.education = education
+        self.specialization = specialization
 
-// Function to introduce yourself
-void introduceYourself(string name, string passion, string location, string future_certification) {
-    // Printing the introduction message
-    cout << "Hi there, I'm " << name << " 👋" << endl;
-    cout << "I'm passionate about " << passion << " and continuously expanding my knowledge." << endl;
-    cout << "I love " << location << " and will soon pursue the " << future_certification << " certification and many more." << endl;
-}
+    def generate_introduction(self):
+        """
+        Generate a formatted introduction string.
+        """
+        intro = (
+            f"Hi there, I'm {self.name} 👋\n"
+            f"I'm passionate about {self.passion} and continuously expanding my knowledge.\n"
+            f"I love {self.location}, and I am currently pursuing my Master's in {self.education} at "
+            f"Tennessee State University, concentrating on {self.specialization}."
+        )
+        return intro
 
-int main() {
-    // Variables to store user information
-    string name = "Husain";
-    string passion = "building software solutions";
-    string location = "Texas";
-    string future_certification = "Red Hat Administrator";
+    def display_introduction(self):
+        """
+        Print the introduction to the console.
+        """
+        print(self.generate_introduction())
 
-    // Calling the function to print the introduction message
-    introduceYourself(name, passion, location, future_certification);
 
-    return 0;
-}
+def main():
+    """
+    Main function to create an Introduction object and display the message.
+    """
+    # Data input (can be dynamic or kept hardcoded for simplicity)
+    name = "Husain"
+    passion = "building software solutions"
+    location = "Texas"
+    education = "Master of Science in Data Science"
+    specialization = "Machine Learning"
+
+    # Creating an Introduction object and displaying the introduction
+    intro = Introduction(name, passion, location, education, specialization)
+    intro.display_introduction()
+
+
+if __name__ == "__main__":
+    main()
+
 
 ```
 ## Certifications
@@ -42,6 +69,7 @@ int main() {
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
+  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/RHCSA.png" alt="Red Hat Certified System Administrator" width="100" />
 </div>
 
 ### Linux Essentials Certified
