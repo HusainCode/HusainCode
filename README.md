@@ -123,6 +123,8 @@ if __name__ == "__main__":
 <div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <p>Visitors count</p>
   <img src="https://profile-counter.glitch.me/HusainCode/count.svg" />
+  <p style="color: red; font-size: 18px; font-weight: bold;">YouTube channel coming very soon!</p>
 </div>
+
 
 
