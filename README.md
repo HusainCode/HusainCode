@@ -110,14 +110,20 @@ if __name__ == "__main__":
 
 <hr>
 
-### Connect with Me
+## Connect with Me
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/5296501_linkedin_network_linkedin%20logo_icon.svg" alt="LinkedIn Profile" width="40" style="margin-right: 10px;"/>
+<div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; align-items: center; justify-content: center; gap: 10px;">
+
+  <!-- LinkedIn Icon -->
+  <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-      <p style="color: red; font-size: 18px; font-weight: bold;">YouTube channel coming very soon!</p>
+
+  <!-- YouTube Channel Message -->
+  <p style="color: red; font-size: 18px; font-weight: bold; margin: 0;">YouTube channel coming very soon!</p>
+
 </div>
+
 
 <hr>
 
