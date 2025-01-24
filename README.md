@@ -74,14 +74,15 @@ if __name__ == "__main__":
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/rhcsa.png" alt="Red Hat Certified System Administrator" width="100" />
 </div>
 
-### Linux Essentials Certified
-- **Issuer:** Linux Professional Institute (LPI)
+# Certifications
 
-### Microsoft Certified: Azure Data Fundamentals
-- **Issuer:** Microsoft
+| Certification                     | Issuer                       |
+|-----------------------------------|------------------------------|
+| **Linux Essentials Certified**    | Linux Professional Institute (LPI) |
+| **Microsoft Certified: Azure Data Fundamentals** | Microsoft |
+| **Certified Blockchain Expert**   | Blockchain Council          |
+| **Red Hat Certified System Administrator** | Red Hat               |
 
-### Certified Blockchain Expert
-- **Issuer:** Blockchain Council
 
 <hr>
 ## GitHub Stats
