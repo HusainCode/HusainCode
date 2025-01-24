@@ -8,10 +8,11 @@ I am passionate about learning and aspire to become an accomplished Machine Lear
 
 ## About Me
 
+# Python Introduction Script
+
+```python
 class Introduction:
-    """
-    A class to represent a personal introduction.
-    """
+    """A class to represent a personal introduction."""
 
     def __init__(self, name, passion, location, education, specialization):
         """
@@ -60,6 +61,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 ```
