@@ -3,7 +3,9 @@
 I am passionate about learning and aspire to become an accomplished Machine Learning Engineer. I enjoy working on perception applications using libraries like OpenCV to create innovative software solutions. I am committed to continuously expanding my expertise and contributing to building a brighter world.
 
 > **"Find a job you enjoy doing, and you will never have to work a day in your life." – Mark Twain**
+> 
 > "Once you stop learning, you start dying." – Albert Einstein
+> 
 > "Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it." – Albert Einstein
 
 ## About Me
