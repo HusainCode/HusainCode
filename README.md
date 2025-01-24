@@ -1,6 +1,21 @@
 # Hi there, I'm Husain 👋
 
-I am passionate about learning and aspire to become an accomplished Machine Learning Engineer. I enjoy working on perception applications using libraries like OpenCV to create innovative software solutions. I am committed to continuously expanding my expertise and contributing to building a brighter world.
+I am passionate about learning and aspire to become an accomplished Machine Learning Engineer. I enjoy working on perception applications using libraries like OpenCV to create innovative software solutions. I am committed to continuously expanding my expertise and contributing to building a brighter world.  
+
+<span style="font-weight: bold; font-size: 18px;">
+  <span style="animation: colorChange 3s infinite;">YouTube channel coming very soon!</span>
+</span>
+
+<style>
+@keyframes colorChange {
+  0% { color: red; }
+  25% { color: orange; }
+  50% { color: yellow; }
+  75% { color: green; }
+  100% { color: blue; }
+}
+</style>
+
 
 > **"Find a job you enjoy doing, and you will never have to work a day in your life." – Mark Twain**
 > 
@@ -113,15 +128,11 @@ if __name__ == "__main__":
 ## Connect with Me
 
 <div align="left" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-  <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b" target="_blank" style="text-decoration: none;">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/5296501_linkedin_network_linkedin%20logo_icon.svg" alt="LinkedIn Profile" width="40" style="margin-right: 10px; vertical-align: middle;"/>
+  <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b" target="_blank">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/5296501_linkedin_network_linkedin%20logo_icon.svg" alt="LinkedIn Profile" width="40" style="margin-right: 10px;"/>
   </a>
-  <span style="font-size: 18px; vertical-align: middle;"> 
-    <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b" target="_blank" style="text-decoration: none; color: inherit;">
-      www.linkedin.com/in/husain-alshaikhahmed-a6892617b
-    </a>
-  </span>
 </div>
+
 
 <hr>
 
