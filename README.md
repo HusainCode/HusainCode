@@ -9,9 +9,6 @@ I am passionate about learning and aspire to become an accomplished Machine Lear
 > "Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it." – Albert Einstein
 
 ## About Me
-
-# Python Introduction Script
-
 ```python
 class Introduction:
     """A class to represent a personal introduction."""
