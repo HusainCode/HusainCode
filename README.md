@@ -1,7 +1,6 @@
 # Hi there, I'm Husain 👋
 
-I am passionate about learning and aspire to become an accomplished Machine Learning Engineer. I enjoy working on perception applications using libraries like OpenCV to create innovative software solutions. I am committed to continuously expanding my expertise and contributing to building a brighter world. <span style="color: red; font-weight: bold; font-size: 18px;">YouTube channel coming very soon!</span>
-
+I am passionate about learning and aspire to become an accomplished Machine Learning Engineer. I enjoy working on perception applications using libraries like OpenCV to create innovative software solutions. I am committed to continuously expanding my expertise and contributing to building a brighter world. 🚀 **YouTube Channel Coming Very Soon!** 🚀
 
 > **"Find a job you enjoy doing, and you will never have to work a day in your life." – Mark Twain**
 > 
