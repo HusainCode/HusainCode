@@ -113,15 +113,15 @@ if __name__ == "__main__":
 ## Connect with Me
 
 <div align="left" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-  <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b" target="_blank">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/5296501_linkedin_network_linkedin%20logo_icon.svg" alt="LinkedIn Profile" width="40" style="margin-right: 10px;"/>
+  <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b" target="_blank" style="text-decoration: none;">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/5296501_linkedin_network_linkedin%20logo_icon.svg" alt="LinkedIn Profile" width="40" style="margin-right: 10px; vertical-align: middle;"/>
   </a>
-  www.linkedin.com/in/husain-alshaikhahmed-a6892617b
+  <span style="font-size: 18px; vertical-align: middle;"> 
+    <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b" target="_blank" style="text-decoration: none; color: inherit;">
+      www.linkedin.com/in/husain-alshaikhahmed-a6892617b
+    </a>
+  </span>
 </div>
-
-
-
-
 
 <hr>
 
