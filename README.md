@@ -112,15 +112,14 @@ if __name__ == "__main__":
 
 ## Connect with Me
 
-<div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; align-items: center; justify-content: center; gap: 10px;">
-
-  <!-- LinkedIn Icon -->
+<div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 
-
+  <p style="color: red; font-size: 18px; font-weight: bold;">YouTube channel coming very soon!</p>
 </div>
+
 
 
 <hr>
