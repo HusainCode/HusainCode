@@ -47,7 +47,7 @@ def main():
     """
     Main function to create an Introduction object and display the message.
     """
-    # Data input (can be dynamic or kept hardcoded for simplicity)
+    # Data input
     name = "Husain"
     passion = "building software solutions"
     location = "Texas"
@@ -71,7 +71,7 @@ if __name__ == "__main__":
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
-  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/RHCSA.png" alt="Red Hat Certified System Administrator" width="100" />
+  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/rhcsa.png" alt="Red Hat Certified System Administrator" width="100" />
 </div>
 
 ### Linux Essentials Certified
