@@ -119,8 +119,6 @@ if __name__ == "__main__":
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 
-  <!-- YouTube Channel Message -->
-  <p style="color: red; font-size: 18px; font-weight: bold; margin: 0;">YouTube channel coming very soon!</p>
 
 </div>
 
