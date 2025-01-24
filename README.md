@@ -116,6 +116,7 @@ if __name__ == "__main__":
   <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b">
     <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/5296501_linkedin_network_linkedin%20logo_icon.svg" alt="LinkedIn Profile" width="40" style="margin-right: 10px;"/>
   </a>
+      <p style="color: red; font-size: 18px; font-weight: bold;">YouTube channel coming very soon!</p>
 </div>
 
 <hr>
@@ -123,7 +124,6 @@ if __name__ == "__main__":
 <div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <p>Visitors count</p>
   <img src="https://profile-counter.glitch.me/HusainCode/count.svg" />
-  <p style="color: red; font-size: 18px; font-weight: bold;">YouTube channel coming very soon!</p>
 </div>
 
 
