@@ -84,10 +84,11 @@ if __name__ == "__main__":
 
 
 <hr>
+
 ## GitHub Stats
 
-![Husain's GitHub stats](https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=dark)
-![Husain's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=HusainCode&theme=dark)
+![Husain's GitHub Stats](https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=dark&count_private=true)
+![Husain's GitHub Streak](https://streak-stats.demolab.com?user=HusainCode&theme=dark)
 
 <hr>
 
