@@ -3,11 +3,11 @@
 <p align="center">
   🚀 I am a <strong>Software Engineer</strong> | 🔍 Passionate about <strong>Embedded Systems & IoT Applications</strong> | 🎯 Lifelong Learner  
   <br>
-  👉 <a href="https://roadmap.sh/r/embeddediot-software-engineers" target="_blank"><strong>Check out my Embedded IoT Software Engineer Roadmap</strong></a>
+  👉 <a href="https://roadmap.sh/r/embeddediot-software-engineers" target="_blank"><strong>Check out my Software Engineer Roadmap</strong></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Machine%20Learning-%E2%9C%94%EF%B8%8F-blue" alt="Machine Learning Badge" />
+  <img src="https://img.shields.io/badge/Software%20Engineering-%E2%9C%94%EF%B8%8F-blue" alt="Software Engineering Badge" />
   <img src="https://img.shields.io/badge/OpenCV-%F0%9F%94%8D-green" alt="OpenCV Badge" />
   <img src="https://img.shields.io/badge/YouTube-Coming%20Soon-red" alt="YouTube Badge" />
 </p>
@@ -17,10 +17,9 @@
 ### 🌟 About Me
 
 I'm passionate about learning and aspire to become an accomplished **Software Engineer**.  
-I enjoy working on **embedded systems**, **IoT**, and **backend development**, and I'm always exploring innovative ways to build software that makes a meaningful difference in the world.
-
+I enjoy working on **embedded systems**, **IoT**, **backend development**, **AI/ML**, and **robotics**.  
+I'm always exploring innovative ways to build software that makes a meaningful difference in the world.
 ---
-
 > 💡 _"Find a job you enjoy doing, and you will never have to work a day in your life."_ – **Mark Twain**  
 > 🧠 _"Once you stop learning, you start dying."_ – **Albert Einstein**  
 > 🔁 _"Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it."_ – **Albert Einstein**
