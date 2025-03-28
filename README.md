@@ -1,7 +1,22 @@
-# Hi there, I'm Husain 👋
+<h1 align="center">Hi there, I'm Husain 👋</h1>
 
-I am passionate about learning and aspire to become an accomplished Machine Learning Engineer. I enjoy working on perception applications using libraries like OpenCV to create innovative software solutions. I am committed to continuously expanding my expertise and contributing to building a brighter world. 🚀 **YouTube Channel Coming Very Soon!** 🚀
+<p align="center">
+  🚀 Aspiring <strong>Machine Learning Engineer</strong> | 🔍 Passionate about <strong>Perception Applications</strong> | 🎯 Lifelong Learner
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Machine%20Learning-%E2%9C%94%EF%B8%8F-blue" alt="Machine Learning Badge" />
+  <img src="https://img.shields.io/badge/OpenCV-%F0%9F%94%8D-green" alt="OpenCV Badge" />
+  <img src="https://img.shields.io/badge/YouTube-Coming%20Soon-red" alt="YouTube Badge" />
+</p>
+
+---
+
+### 🌟 About Me
+I'm passionate about learning and aspire to become an accomplished **Machine Learning Engineer**.  
+I enjoy working on **perception-based applications** using libraries like **OpenCV**, and I'm always exploring innovative ways to build software that makes a difference.
+
+---
 > **"Find a job you enjoy doing, and you will never have to work a day in your life." – Mark Twain**
 > 
 > "Once you stop learning, you start dying." – Albert Einstein
