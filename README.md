@@ -94,6 +94,9 @@ if __name__ == "__main__":
 
 ```
 ```
+### 🖨️ Output:
+```bash
+$ python3 intro.py
 [DEBUG] SoftwareEngineer object created.
 [DEBUG] Executing introduction routine...
 [DEBUG] Compiling thoughts...
