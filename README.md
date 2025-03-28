@@ -105,26 +105,27 @@ $ python3 intro.py
 🎓 I hold a Bachelor's in Computer Science.
 📚 Currently pursuing a Master's in Data Science, specializing in Machine Learning & Embedded Intelligence.
 ```
-## Certifications
+## 🏅 Certifications
 
 <div align="left">
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/rhcsa.png" alt="Red Hat Certified System Administrator" width="100" />
+  <img src="https://img.shields.io/badge/NEXT_CERT-PENDING-important?style=for-the-badge&logo=OpenAI" alt="Pending Certification Badge" />
 </div>
 
-# Certifications
+<br>
 
-| Certification                     | Issuer                       |
-|-----------------------------------|------------------------------|
-| **Linux Essentials Certified**    | Linux Professional Institute (LPI) |
-| **Microsoft Certified: Azure Data Fundamentals** | Microsoft |
-| **Certified Blockchain Expert**   | Blockchain Council          |
-| **Red Hat Certified System Administrator** | Red Hat               |
+| 🧾 Certification                                | 🏛️ Issuer                             |
+|------------------------------------------------|----------------------------------------|
+| **Linux Essentials Certified**                 | Linux Professional Institute (LPI)     |
+| **Microsoft Certified: Azure Data Fundamentals** | Microsoft                             |
+| **Certified Blockchain Expert**                | Blockchain Council                     |
+| **Red Hat Certified System Administrator**     | Red Hat                                |
+| **Next Certification**                         | <span id="pending-cert" style="font-weight:bold;">🔄 Pending...</span> |
 
-
-<hr>
+---
 
 ## GitHub Stats
 
