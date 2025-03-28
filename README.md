@@ -1,7 +1,9 @@
 <h1 align="center">Hi there, I'm Husain 👋</h1>
 
 <p align="center">
-  🚀 Aspiring <strong>Machine Learning Engineer</strong> | 🔍 Passionate about <strong>Perception Applications</strong> | 🎯 Lifelong Learner
+  🚀 I am a <strong>Software Engineer</strong> | 🔍 Passionate about <strong>Embedded Systems & IoT Applications</strong> | 🎯 Lifelong Learner  
+  <br>
+  👉 <a href="https://roadmap.sh/r/embeddediot-software-engineers" target="_blank"><strong>Check out my Embedded IoT Software Engineer Roadmap</strong></a>
 </p>
 
 <p align="center">
@@ -13,17 +15,16 @@
 ---
 
 ### 🌟 About Me
-I'm passionate about learning and aspire to become an accomplished **Machine Learning Engineer**.  
-I enjoy working on **perception-based applications** using libraries like **OpenCV**, and I'm always exploring innovative ways to build software that makes a difference.
+
+I'm passionate about learning and aspire to become an accomplished **Software Engineer**.  
+I enjoy working on **embedded systems**, **IoT**, and **backend development**, and I'm always exploring innovative ways to build software that makes a meaningful difference in the world.
 
 ---
-> **"Find a job you enjoy doing, and you will never have to work a day in your life." – Mark Twain**
-> 
-> "Once you stop learning, you start dying." – Albert Einstein
-> 
-> "Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it." – Albert Einstein
 
-## About Me
+> 💡 _"Find a job you enjoy doing, and you will never have to work a day in your life."_ – **Mark Twain**  
+> 🧠 _"Once you stop learning, you start dying."_ – **Albert Einstein**  
+> 🔁 _"Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it."_ – **Albert Einstein**
+
 ```python
 class Introduction:
     """A class to represent a personal introduction."""
