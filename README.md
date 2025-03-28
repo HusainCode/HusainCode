@@ -15,10 +15,7 @@
 ---
 
 ### 🌟 About Me
-
-I'm passionate about learning and aspire to become an accomplished **Software Engineer**.  
-I enjoy working on **embedded systems**, **IoT**, **backend development**, **AI/ML**, and **robotics**.  
-I'm always exploring innovative ways to build software that makes a meaningful difference in the world.
+I'm passionate about learning and aspire to become an accomplished **Software Engineer**. I enjoy working on **embedded systems**, **IoT**, **backend development**, **AI/ML**, and **robotics**. I'm always exploring innovative ways to build software that makes a meaningful difference in the world.
 ---
 > 💡 _"Find a job you enjoy doing, and you will never have to work a day in your life."_ – **Mark Twain**  
 > 🧠 _"Once you stop learning, you start dying."_ – **Albert Einstein**  
