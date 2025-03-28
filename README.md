@@ -26,96 +26,82 @@ I'm passionate about learning and aspire to become an accomplished **Software En
 > 🔁 _"Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it."_ – **Albert Einstein**
 
 ```python
-import threading
-import time
-from datetime import datetime
-import pytz
-from functools import wraps
+from dataclasses import dataclass
 
-def live_clock(stop_event):
-    """Continuously print the current time in Austin, TX."""
-    tz = pytz.timezone("America/Chicago")  # Covers Austin, Texas (handles DST)
-    while not stop_event.is_set():
-        now = datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
-        print(f"\r🕒 Current Austin Time: {now}", end="", flush=True)
-        time.sleep(1)
+class EngineeringMindsetMixin:
+    def debug_log(self, message):
+        print(f"[DEBUG] {message}")
 
-def timestamped_output(func):
-    """Decorator to print timestamp before running intro."""
-    @wraps(func)
-    def wrapper(*args, **kwargs):
-        print("\n\n📅 Static Timestamp:", datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
-        print("===========================================")
-        return func(*args, **kwargs)
-    return wrapper
+@dataclass
+class Education:
+    bachelors: str
+    masters: str
+    specialization: str
 
-class LocationMixin:
-    def format_location(self, location: str) -> str:
-        return f"I'm currently based in {location}."
+class SoftwareEngineer(EngineeringMindsetMixin):
+    """
+    A class that represents a software engineer with an embedded systems mindset,
+    combining Python and C++ thinking.
+    """
 
-class DegreeFormatter:
-    def __init__(self, education: str, pending_degree: str, specialization: str):
-        self.education = education
-        self.pending_degree = pending_degree
-        self.specialization = specialization
-
-    def formatted_degrees(self) -> str:
-        return (
-            f"I hold a Bachelor's degree in {self.education}.\n"
-            f"I'm currently pursuing a {self.pending_degree}, specializing in {self.specialization}."
-        )
-
-class Introduction(LocationMixin):
-    def __init__(self, name: str, passion: str, location: str, degree_formatter: DegreeFormatter):
+    def __init__(self, name: str, passion: str, location: str, education: Education):
         self.name = name
         self.passion = passion
         self.location = location
-        self.degree_formatter = degree_formatter
+        self.education = education
+        self.debug_log("SoftwareEngineer object created.")
 
-    @property
-    def greeting(self) -> str:
-        return f"Hi there, I'm {self.name} 👋"
+    def compile_thoughts(self) -> str:
+        """
+        Mimics a 'compile' step like in C++, but in Python context.
+        """
+        self.debug_log("Compiling thoughts...")
+        intro = (
+            f"👨‍💻 Hi there, I'm {self.name}!\n"
+            f"💡 Passionate about {self.passion} and solving real-world problems.\n"
+            f"📍 Based in {self.location}.\n"
+            f"🎓 I hold a Bachelor's in {self.education.bachelors}.\n"
+            f"📚 Currently pursuing a Master's in {self.education.masters}, "
+            f"specializing in {self.education.specialization}.\n"
+        )
+        return intro
 
-    @property
-    def passion_statement(self) -> str:
-        return f"I'm passionate about {self.passion} and continuously expanding my knowledge."
-
-    @timestamped_output
-    def display(self) -> None:
-        print(self.greeting)
-        print(self.passion_statement)
-        print(self.format_location(self.location))
-        print(self.degree_formatter.formatted_degrees())
+    def execute(self):
+        """
+        Mimics a runtime execution.
+        """
+        self.debug_log("Executing introduction routine...")
+        print(self.compile_thoughts())
 
 def main():
-    name = "Husain"
-    passion = "building smart, scalable systems and innovating in AI/ML, Embedded Systems, and Robotics"
-    location = "Austin, Texas"
-    education = "Computer Science"
-    pending_degree = "Master of Science in Data Science"
-    specialization = "Machine Learning and Intelligent Systems"
+    husain_edu = Education(
+        bachelors="Computer Science",
+        masters="Data Science",
+        specialization="Machine Learning & Embedded Intelligence"
+    )
 
-    # Start clock in a separate thread
-    stop_event = threading.Event()
-    clock_thread = threading.Thread(target=live_clock, args=(stop_event,))
-    clock_thread.start()
+    husain = SoftwareEngineer(
+        name="Husain",
+        passion="building smart software & embedded systems",
+        location="Texas",
+        education=husain_edu
+    )
 
-    # Run introduction
-    try:
-        degree_formatter = DegreeFormatter(education, pending_degree, specialization)
-        intro = Introduction(name, passion, location, degree_formatter)
-        intro.display()
-
-        # Keep clock running until user presses Enter
-        print("\n\nPress Enter to stop the clock and exit.")
-        input()
-    finally:
-        stop_event.set()
-        clock_thread.join()
-        print("\n🛑 Clock stopped. Goodbye!")
+    husain.execute()
 
 if __name__ == "__main__":
     main()
+
+```
+```
+[DEBUG] SoftwareEngineer object created.
+[DEBUG] Executing introduction routine...
+[DEBUG] Compiling thoughts...
+👨‍💻 Hi there, I'm Husain!
+💡 Passionate about building smart software & embedded systems and solving real-world problems.
+📍 Based in Texas.
+🎓 I hold a Bachelor's in Computer Science.
+📚 Currently pursuing a Master's in Data Science, specializing in Machine Learning & Embedded Intelligence.
 ```
 ## Certifications
 
