@@ -26,59 +26,96 @@ I'm passionate about learning and aspire to become an accomplished **Software En
 > 🔁 _"Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it."_ – **Albert Einstein**
 
 ```python
-class Introduction:
-    """A class to represent a personal introduction."""
+import threading
+import time
+from datetime import datetime
+import pytz
+from functools import wraps
 
-    def __init__(self, name, passion, location, education, specialization):
-        """
-        Initialize the Introduction object with personal attributes.
-        """
+def live_clock(stop_event):
+    """Continuously print the current time in Austin, TX."""
+    tz = pytz.timezone("America/Chicago")  # Covers Austin, Texas (handles DST)
+    while not stop_event.is_set():
+        now = datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
+        print(f"\r🕒 Current Austin Time: {now}", end="", flush=True)
+        time.sleep(1)
+
+def timestamped_output(func):
+    """Decorator to print timestamp before running intro."""
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        print("\n\n📅 Static Timestamp:", datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+        print("===========================================")
+        return func(*args, **kwargs)
+    return wrapper
+
+class LocationMixin:
+    def format_location(self, location: str) -> str:
+        return f"I'm currently based in {location}."
+
+class DegreeFormatter:
+    def __init__(self, education: str, pending_degree: str, specialization: str):
+        self.education = education
+        self.pending_degree = pending_degree
+        self.specialization = specialization
+
+    def formatted_degrees(self) -> str:
+        return (
+            f"I hold a Bachelor's degree in {self.education}.\n"
+            f"I'm currently pursuing a {self.pending_degree}, specializing in {self.specialization}."
+        )
+
+class Introduction(LocationMixin):
+    def __init__(self, name: str, passion: str, location: str, degree_formatter: DegreeFormatter):
         self.name = name
         self.passion = passion
         self.location = location
-        self.education = education
-        self.specialization = specialization
+        self.degree_formatter = degree_formatter
 
-    def generate_introduction(self):
-        """
-        Generate a formatted introduction string.
-        """
-        intro = (
-            f"Hi there, I'm {self.name} 👋\n"
-            f"I'm passionate about {self.passion} and continuously expanding my knowledge.\n"
-            f"I love {self.location}, and I am currently pursuing my Master's in {self.education} at "
-            f"Tennessee State University, concentrating on {self.specialization}."
-        )
-        return intro
+    @property
+    def greeting(self) -> str:
+        return f"Hi there, I'm {self.name} 👋"
 
-    def display_introduction(self):
-        """
-        Print the introduction to the console.
-        """
-        print(self.generate_introduction())
+    @property
+    def passion_statement(self) -> str:
+        return f"I'm passionate about {self.passion} and continuously expanding my knowledge."
 
+    @timestamped_output
+    def display(self) -> None:
+        print(self.greeting)
+        print(self.passion_statement)
+        print(self.format_location(self.location))
+        print(self.degree_formatter.formatted_degrees())
 
 def main():
-    """
-    Main function to create an Introduction object and display the message.
-    """
-    # Data input
     name = "Husain"
-    passion = "building software solutions"
-    location = "Texas"
-    education = "Master of Science in Data Science"
-    specialization = "Machine Learning"
+    passion = "building smart, scalable systems and innovating in AI/ML, Embedded Systems, and Robotics"
+    location = "Austin, Texas"
+    education = "Computer Science"
+    pending_degree = "Master of Science in Data Science"
+    specialization = "Machine Learning and Intelligent Systems"
 
-    # Creating an Introduction object and displaying the introduction
-    intro = Introduction(name, passion, location, education, specialization)
-    intro.display_introduction()
+    # Start clock in a separate thread
+    stop_event = threading.Event()
+    clock_thread = threading.Thread(target=live_clock, args=(stop_event,))
+    clock_thread.start()
 
+    # Run introduction
+    try:
+        degree_formatter = DegreeFormatter(education, pending_degree, specialization)
+        intro = Introduction(name, passion, location, degree_formatter)
+        intro.display()
+
+        # Keep clock running until user presses Enter
+        print("\n\nPress Enter to stop the clock and exit.")
+        input()
+    finally:
+        stop_event.set()
+        clock_thread.join()
+        print("\n🛑 Clock stopped. Goodbye!")
 
 if __name__ == "__main__":
     main()
-
-
-
 ```
 ## Certifications
 
