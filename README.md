@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/One_Piece.webp" alt="Straw Hat Pirates Logo" width="200"/>
+</p>
+
 <h1 align="center">Hi there, I'm Husain 👋</h1>
 
 <p align="center">
