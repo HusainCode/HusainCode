@@ -12,7 +12,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Software%20Engineering-%E2%9C%94%EF%B8%8F-blue" alt="Software Engineering Badge" />
-  <img src="https://img.shields.io/badge/OpenCV-%F0%9F%94%8D-green" alt="OpenCV Badge" />
   <img src="https://img.shields.io/badge/YouTube-Coming%20Soon-red" alt="YouTube Badge" />
 </p>
 
