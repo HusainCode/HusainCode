@@ -111,7 +111,7 @@ $ python3 intro.py
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
   <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/rhcsa.png" alt="Red Hat Certified System Administrator" width="100" />
-  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/PCAPI.png" alt="Certified Associate Python Programmer" width="100" />
+  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/PCAPI.png" alt="Certified Associate Python Programmer" width="140" />
   <img src="https://img.shields.io/badge/NEXT_CERT-PENDING-important?style=for-the-badge&logo=OpenAI" alt="Pending Certification Badge" />
 </div>
 
