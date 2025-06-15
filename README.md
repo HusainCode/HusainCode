@@ -23,14 +23,16 @@ I'm passionate about continuous learning and growth as a **Software Engineer**. 
 I'm not aiming to be the best this year, or the next, or even the one after that. I’ve got my whole life to master this craft. I’m here for the long run, dedicated to becoming one of the best in the field.
 
 <p style="color:red;">
-  ⚠️ <strong>Warning:</strong> If you didn’t hire me, that decision might age poorly. I’m not just here to code — I’m here to <strong>lead, innovate, and outgrow expectations</strong>. And yes this one's very personal.
+  ⚠️ <strong>Warning:</strong> If you didn’t hire me, that decision might age poorly. I’m not just here to code. I’m here to <strong>lead, innovate, and outgrow expectations</strong>. And yes this one's very personal.
 </p>
 
-> 📝 **Interviewer Note:**  
+### 📝 Interviewer Note  
 > ❌ Please don’t ask me *“How do you stay up to date with tech?”*  
-> If you can’t already tell from my work, my consistency, and my drive I genuinely can’t help you answer that.
+> If you can’t already tell from my work, my consistency, and my drive. I genuinely can’t help you answer that.
+
 ---
 
+### 💬 Quotes That Drive Me  
 > 💡 _"Find a job you enjoy doing, and you will never have to work a day in your life."_ – **Mark Twain**  
 > 🧠 _"Once you stop learning, you start dying."_ – **Albert Einstein**  
 > 🔁 _"Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it."_ – **Albert Einstein**
