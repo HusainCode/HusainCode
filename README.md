@@ -5,7 +5,7 @@
 <h1 align="center">Hi there, I'm Husain 👋</h1>
 
 <p align="center">
-  🚀 I am a <strong>Software Engineer</strong> | 🔍 Passionate about <strong>Embedded Systems & IoT Applications</strong> | 🎯 Lifelong Learner  
+  🚀 I am a <strong>Software Engineer</strong> | 🔍 Passionate about <strong>Building & Solving</strong> | 🎯 Lifelong Learner  
   <br>
   👉 <a href="https://roadmap.sh/r/embeddediot-software-engineers" target="_blank"><strong>Check out my Software Engineer Roadmap</strong></a>
 </p>
@@ -17,12 +17,17 @@
 
 ---
 
-### 🌟 About Me
-I'm passionate about learning and aspire to become an accomplished **Software Engineer**. I enjoy working on **embedded systems**, **IoT**, **backend development**, **AI/ML**, and **robotics**. I'm always exploring innovative ways to build software that makes a meaningful difference in the world.
+### 🌟 About Me  
+I'm passionate about continuous learning and growth as a **Software Engineer**. I enjoy working on a variety of technical challenges, from **system-level programming** to **backend development**, and I'm constantly exploring innovative technologies like **AI**, **automation**, and **intelligent systems**. I strive to build meaningful software that makes a real impact.
+
+> ⚠️ **Warning:** If you didn’t hire me, that decision might age poorly. I’m not just here to code — I’m here to **lead, innovate, and outgrow expectations**.
+
 ---
+
 > 💡 _"Find a job you enjoy doing, and you will never have to work a day in your life."_ – **Mark Twain**  
 > 🧠 _"Once you stop learning, you start dying."_ – **Albert Einstein**  
 > 🔁 _"Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it."_ – **Albert Einstein**
+
 
 ```python
 from dataclasses import dataclass
