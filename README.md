@@ -20,7 +20,7 @@
 ### 🌟 About Me  
 I'm passionate about continuous learning and growth as a **Software Engineer**. I enjoy working on a variety of technical challenges, from **system-level programming** to **backend development**, and I'm constantly exploring innovative technologies.
 
-I'm not aiming to be the best this year, or the next, or even the one after that — I’ve got my whole life to master this craft. I’m here for the long run, dedicated to becoming one of the best in the field.
+I'm not aiming to be the best this year, or the next, or even the one after that. I’ve got my whole life to master this craft. I’m here for the long run, dedicated to becoming one of the best in the field.
 
 <p style="color:red;">
   ⚠️ <strong>Warning:</strong> If you didn’t hire me, that decision might age poorly. I’m not just here to code — I’m here to <strong>lead, innovate, and outgrow expectations</strong>. And yes this one's very personal.
