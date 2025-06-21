@@ -118,6 +118,11 @@ $ python3 intro.py
 🎓 I hold a Bachelor's in Computer Science.
 📚 Currently pursuing a Master's in Data Science, specializing in Machine Learning & Embedded Intelligence.
 ```
+
+## 🏆 GitHub Trophies
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=HusainCode&theme=discord&column=7&no-frame=true&margin-w=5&margin-h=5)
+
 ## 🏅 Certifications
 
 <div align="left">
