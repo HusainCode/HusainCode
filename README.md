@@ -38,10 +38,6 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 > 🔁 _"Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it."_ – **Albert Einstein**
 
 
-# 👨‍💻 Software Engineer Introduction (Java Edition)
-
-This is a playful, object-oriented "About Me" in Java—demonstrating my coding style, love for embedded/AI systems, and a touch of debug mindset.
-
 ```java
 // DebugMixin-like functionality for logging
 interface Debuggable {
