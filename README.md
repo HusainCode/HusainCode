@@ -38,85 +38,97 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 > 🔁 _"Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it."_ – **Albert Einstein**
 
 
-```python
-from dataclasses import dataclass
+```java
+# 👨‍💻 Software Engineer Introduction (Java Edition)
 
-class DebugMixin:
-    def debug_log(self, message):
-        print(f"[DEBUG] {message}")
+This is a playful, object-oriented "About Me" in Java—demonstrating my coding style, love for embedded/AI systems, and a touch of debug mindset.
 
-@dataclass
-class Education:
-    bachelors: str
-    masters: str
-    specialization: str
+```java
+// DebugMixin-like functionality for logging
+interface Debuggable {
+    default void debugLog(String message) {
+        System.out.println("[DEBUG] " + message);
+    }
+}
 
-class SoftwareEngineer(DebugMixin):
-    """
-    A class representing a software engineer with a focus on
-    embedded systems, IoT, and intelligent software solutions.
-    """
+// POJO for education details (Java-style)
+class Education {
+    private final String bachelors;
+    private final String masters;
+    private final String specialization;
 
-    def __init__(self, name: str, passion: str, location: str, education: Education):
-        self.name = name
-        self.passion = passion
-        self.location = location
-        self.education = education
-        self.debug_log("SoftwareEngineer object created.")
+    public Education(String bachelors, String masters, String specialization) {
+        this.bachelors = bachelors;
+        this.masters = masters;
+        this.specialization = specialization;
+    }
 
-    def generate_introduction(self) -> str:
-        """
-        Generates a formatted introduction string.
-        """
-        self.debug_log("Generating introduction...")
-        intro = (
-            f"👨‍💻 Hi there, I'm {self.name}!\n"
-            f"💡 Passionate about {self.passion} and solving real-world problems.\n"
-            f"📍 Based in {self.location}.\n"
-            f"🎓 I hold a Bachelor's in {self.education.bachelors}.\n"
-            f"📚 Currently pursuing a Master's in {self.education.masters}, "
-            f"specializing in {self.education.specialization}.\n"
-        )
-        return intro
+    public String getBachelors() { return bachelors; }
+    public String getMasters() { return masters; }
+    public String getSpecialization() { return specialization; }
+}
 
-    def execute(self):
-        """
-        Displays the formatted introduction.
-        """
-        self.debug_log("Executing introduction routine...")
-        print(self.generate_introduction())
+// Main engineer class with debug logging
+public class SoftwareEngineer implements Debuggable {
+    private final String name;
+    private final String passion;
+    private final String location;
+    private final Education education;
 
-def main():
-    husain_edu = Education(
-        bachelors="Computer Science",
-        masters="Data Science",
-        specialization="Machine Learning & Embedded Intelligence"
-    )
+    public SoftwareEngineer(String name, String passion, String location, Education education) {
+        this.name = name;
+        this.passion = passion;
+        this.location = location;
+        this.education = education;
+        debugLog("SoftwareEngineer object created.");
+    }
 
-    husain = SoftwareEngineer(
-        name="Husain",
-        passion="building smart software & embedded systems",
-        location="Texas",
-        education=husain_edu
-    )
+    public String generateIntroduction() {
+        debugLog("Generating introduction...");
+        return " Hi there, I'm " + name + "!\n"
+            + " Passionate about " + passion + " and solving real-world problems.\n"
+            + " Based in " + location + ".\n"
+            + " I hold a Bachelor's in " + education.getBachelors() + ".\n"
+            + " Currently pursuing a Master's in " + education.getMasters()
+            + ", specializing in " + education.getSpecialization() + ".\n";
+    }
 
-    husain.execute()
+    public void execute() {
+        debugLog("Executing introduction routine...");
+        System.out.println(generateIntroduction());
+    }
 
-if __name__ == "__main__":
-    main()
+    public static void main(String[] args) {
+        Education husainEdu = new Education(
+            "Computer Science",
+            "Data Science",
+            "Machine Learning & Embedded Intelligence"
+        );
+
+        SoftwareEngineer husain = new SoftwareEngineer(
+            "Husain",
+            "building smart software & embedded systems",
+            "Texas",
+            husainEdu
+        );
+
+        husain.execute();
+    }
+}
+
 ```
 ```
 ### 🖨️ Output:
 ```bash
-$ python3 intro.py
 [DEBUG] SoftwareEngineer object created.
 [DEBUG] Executing introduction routine...
-[DEBUG] Compiling thoughts...
-👨‍💻 Hi there, I'm Husain!
-💡 Passionate about building smart software & embedded systems and solving real-world problems.
-📍 Based in Texas.
-🎓 I hold a Bachelor's in Computer Science.
-📚 Currently pursuing a Master's in Data Science, specializing in Machine Learning & Embedded Intelligence.
+[DEBUG] Generating introduction...
+ Hi there, I'm Husain!
+Passionate about building smart software & embedded systems and solving real-world problems.
+Based in Texas.
+I hold a Bachelor's in Computer Science.
+Currently pursuing a Master's in Data Science, specializing in Machine Learning & Embedded Intelligence.
+.
 ```
 
 ## 🏆 GitHub Trophies
