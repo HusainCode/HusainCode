@@ -166,19 +166,17 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 ### Languages & Tools:
 
-### Languages & Tools:
-
 <p align="left">
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="40" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" alt="Python" width="40" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" alt="C" width="40" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" alt="C++" width="40" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" alt="MySQL" width="40" style="margin-right: 13px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" alt="Linux" width="40" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Go-Logo_Aqua.svg" alt="Go" width="40" style="margin-right: 13px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/docker.jpeg" alt="Docker" width="40" style="margin-right: 13px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Kubernetespic.png" alt="Kubernetes" width="40" style="margin-right: 13px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/aws.jpg" alt="AWS" width="40" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" alt="Python" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" alt="C" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" alt="C++" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" alt="MySQL" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" alt="Linux" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Go-Logo_Aqua.svg" alt="Go" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/docker.jpeg" alt="Docker" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Kubernetespic.png" alt="Kubernetes" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/aws.jpg" alt="AWS" width="55" style="margin-right: 13px;"/>
 </p>
 
 <hr>
