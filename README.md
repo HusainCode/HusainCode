@@ -46,7 +46,6 @@ interface Debuggable {
     }
 }
 
-// POJO for education details (Java-style)
 class Education {
     private final String bachelors;
     private final String masters;
