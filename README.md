@@ -38,77 +38,58 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 > 🔁 _"Commit yourself to lifelong learning. The most valuable asset you’ll ever have is your mind and what you put into it."_ – **Albert Einstein**
 
 
-```java
-// DebugMixin-like functionality for logging
-interface Debuggable {
-    default void debugLog(String message) {
-        System.out.println("[DEBUG] " + message);
+```cpp
+#include <iostream>
+#include <string>
+
+class Debuggable {
+protected:
+    void debugLog(const std::string& message) const {
+        std::cout << "[DEBUG] " << message << std::endl;
     }
-}
+};
 
 class Education {
-    private final String bachelors;
-    private final String masters;
-    private final String specialization;
+    std::string bachelors_, masters_, specialization_;
+public:
+    Education(const std::string& b, const std::string& m, const std::string& s)
+        : bachelors_(b), masters_(m), specialization_(s) {}
+    const std::string& getBachelors() const { return bachelors_; }
+    const std::string& getMasters() const { return masters_; }
+    const std::string& getSpecialization() const { return specialization_; }
+};
 
-    public Education(String bachelors, String masters, String specialization) {
-        this.bachelors = bachelors;
-        this.masters = masters;
-        this.specialization = specialization;
-    }
+class SoftwareEngineer : public Debuggable {
+    std::string name_, passion_, location_;
+    Education education_;
+public:
+    SoftwareEngineer(const std::string& n, const std::string& p, const std::string& l, const Education& e)
+        : name_(n), passion_(p), location_(l), education_(e)
+    { debugLog("SoftwareEngineer object created."); }
 
-    public String getBachelors() { return bachelors; }
-    public String getMasters() { return masters; }
-    public String getSpecialization() { return specialization; }
-}
-
-// Main engineer class with debug logging
-public class SoftwareEngineer implements Debuggable {
-    private final String name;
-    private final String passion;
-    private final String location;
-    private final Education education;
-
-    public SoftwareEngineer(String name, String passion, String location, Education education) {
-        this.name = name;
-        this.passion = passion;
-        this.location = location;
-        this.education = education;
-        debugLog("SoftwareEngineer object created.");
-    }
-
-    public String generateIntroduction() {
+    std::string generateIntroduction() const {
         debugLog("Generating introduction...");
-        return " Hi there, I'm " + name + "!\n"
-            + " Passionate about " + passion + " and solving real-world problems.\n"
-            + " Based in " + location + ".\n"
-            + " I hold a Bachelor's in " + education.getBachelors() + ".\n"
-            + " Currently pursuing a Master's in " + education.getMasters()
-            + ", specializing in " + education.getSpecialization() + ".\n";
+        return "Hi there, I'm " + name_ + "!\n"
+            + "Passionate about " + passion_ + " and solving real-world problems.\n"
+            + "Based in " + location_ + ".\n"
+            + "I hold a Bachelor's in " + education_.getBachelors() + ".\n"
+            + "Currently pursuing a Master's in " + education_.getMasters()
+            + ", specializing in " + education_.getSpecialization() + ".\n";
     }
 
-    public void execute() {
+    void execute() const {
         debugLog("Executing introduction routine...");
-        System.out.println(generateIntroduction());
+        std::cout << generateIntroduction();
     }
+};
 
-    public static void main(String[] args) {
-        Education husainEdu = new Education(
-            "Computer Science",
-            "Data Science",
-            "Machine Learning & Embedded Intelligence"
-        );
-
-        SoftwareEngineer husain = new SoftwareEngineer(
-            "Husain",
-            "building smart software & embedded systems",
-            "Texas",
-            husainEdu
-        );
-
-        husain.execute();
-    }
+int main() {
+    Education husainEdu("Computer Science", "Data Science", "Machine Learning & Embedded Intelligence");
+    SoftwareEngineer husain("Husain", "building smart software & embedded systems", "Texas", husainEdu);
+    husain.execute();
+    return 0;
 }
+
 
 
 ```
