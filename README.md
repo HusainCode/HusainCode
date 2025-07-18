@@ -148,10 +148,10 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ### Languages & Tools:
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="55" style="margin-right: 13px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" alt="Python" width="55" style="margin-right: 13px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" alt="C" width="55" style="margin-right: 13px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" alt="C++" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" alt="Python" width="55" style="margin-right: 13px;"/>
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="55" style="margin-right: 13px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" alt="MySQL" width="55" style="margin-right: 13px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" alt="Linux" width="55" style="margin-right: 13px;"/>
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Go-Logo_Aqua.svg" alt="Go" width="55" style="margin-right: 13px;"/>
