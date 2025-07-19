@@ -136,8 +136,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 ## GitHub Stats
 
-![Husain's GitHub Stats](https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=dark&count_private=true)
-![Husain's GitHub Streak](https://streak-stats.demolab.com?user=HusainCode&theme=dark)
+
 
 <hr>
 
