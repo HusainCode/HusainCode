@@ -184,7 +184,12 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 <div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <p>Visitors count</p>
   <img src="https://profile-counter.glitch.me/HusainCode/count.svg" />
+  
 </div>
+## Contribution
 
+<p align="center">
+  <img src="https://github.com/HusainCode/HusainCode/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
 
 
