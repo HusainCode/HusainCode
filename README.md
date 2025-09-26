@@ -141,6 +141,12 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 <hr>
 
+## 📊 Contribution Graph
+
+<p align="center">
+  <img src="https://activity-graph.herokuapp.com/graph?username=HusainCode&bg_color=000000&color=00ffff&line=00ffff&point=ffffff&area=true&hide_border=true" alt="HusainCode's Contribution Graph" />
+</p>
+
 ## Languages and Tools
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical)
