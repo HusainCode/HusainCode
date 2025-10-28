@@ -39,10 +39,7 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 
 
 ```python
-"""
-Demonstrates clean architecture, SOLID principles, and design patterns
-through a simple example of a Software Engineer class structure.
-"""
+
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
@@ -51,8 +48,7 @@ from typing import Protocol
 
 # --- Core Interfaces & Abstractions (Interface Segregation) --- #
 class Logger(Protocol):
-    def log(self, message: str) -> None: ...
-
+    def log(self, message: str) -> None: 
 
 class Debuggable:
     """Mixin providing lightweight debug logging (Strategy pattern)."""
