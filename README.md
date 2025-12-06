@@ -195,7 +195,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="GitHub Stats" />
 </p>
 
 <p align="center">
@@ -203,7 +203,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="Top Languages" />
 </p>
 
 ---
@@ -236,7 +236,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://github.com/HusainCode/HusainCode/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </p>
 
 ---
