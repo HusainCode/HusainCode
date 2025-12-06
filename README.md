@@ -203,7 +203,10 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="Top Languages" />
+  <img 
+    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical&hide_border=true" 
+    alt="Top Languages"
+  />
 </p>
 
 ---
