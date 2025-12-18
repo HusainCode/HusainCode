@@ -1,10 +1,16 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/One_Piece.webp" alt="Straw Hat Pirates Logo" width="200"/>
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FFFF&height=100&section=header" width="100%" />
 </div>
 
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Husain+%F0%9F%91%8B;Software+Engineer+%7C+Problem+Solver;Building+the+Future%2C+One+Commit+at+a+Time" alt="Typing SVG" />
 </h1>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
 
 <div align="center">
 
@@ -22,7 +28,7 @@
 
 </div>
 
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🌟 About Me
 
@@ -77,7 +83,7 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 </tr>
 </table>
 
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 👨‍💻 Who Am I? (In Code)
 
@@ -196,7 +202,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 </details>
 
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🏆 GitHub Trophies
 
@@ -261,9 +267,15 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 </details>
 
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📊 GitHub Stats
+
+<div align="center">
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HusainCode&custom_title=Always%20Building...&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area_color=00FFFF&area=true&hide_border=true&height=200" width="100%" alt="Always Building"/>
+
+</div>
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&rank_icon=none" alt="GitHub Stats" />
@@ -274,7 +286,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&langs_count=8&layout=compact" alt="Top Languages" />
 </div>
 
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📈 Contribution Activity
 
@@ -282,7 +294,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=HusainCode&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
 </div>
 
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🛠️ Languages & Tools
 
@@ -339,7 +351,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 </div>
 
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🤝 Connect with Me
 
