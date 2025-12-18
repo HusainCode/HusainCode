@@ -1,46 +1,90 @@
-<p align="center">
+<div align="center">
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/One_Piece.webp" alt="Straw Hat Pirates Logo" width="200"/>
-</p>
+</div>
 
-<h1 align="center">Hi there, I'm Husain 👋</h1>
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Husain+%F0%9F%91%8B;Software+Engineer+%7C+Problem+Solver;Building+the+Future%2C+One+Commit+at+a+Time" alt="Typing SVG" />
+</h1>
 
-<p align="center">
-  🚀 I am a <strong>Software Engineer</strong> | 🔍 Passionate about <strong>Building & Solving</strong> | 🎯 Lifelong Learner
-  <br>
-  👉 <a href="https://roadmap.sh/r/embeddediot-software-engineers" target="_blank"><strong>Check out my Software Engineer Roadmap</strong></a>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Software%20Engineering-%E2%9C%94%EF%B8%8F-blue" alt="Software Engineering Badge" />
-  <img src="https://img.shields.io/badge/YouTube-Coming%20Soon-red" alt="YouTube Badge" />
-  <img src="https://komarev.com/ghpvc/?username=HusainCode&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+🚀 **Software Engineer** | 🔍 Passionate about **Building & Solving** | 🎯 **Lifelong Learner**
 
----
+[![Roadmap](https://img.shields.io/badge/📌_My_Roadmap-Software_Engineer-00FFFF?style=for-the-badge)](https://roadmap.sh/r/embeddediot-software-engineers)
 
-### 🌟 About Me
+</div>
+
+<div align="center">
+
+  ![Software Engineering](https://img.shields.io/badge/Software%20Engineering-%E2%9C%94%EF%B8%8F-blue?style=flat-square)
+  ![YouTube](https://img.shields.io/badge/YouTube-Coming%20Soon-red?style=flat-square&logo=youtube)
+  ![Profile Views](https://komarev.com/ghpvc/?username=HusainCode&label=Profile%20Views&color=00FFFF&style=flat-square)
+
+</div>
+
+<br>
+
+## 🌟 About Me
+
 I'm passionate about continuous learning and growth as a **Software Engineer**. I enjoy working on a variety of technical challenges, from **system-level programming** to **backend development**, and I'm constantly exploring innovative technologies.
 
 I'm not aiming to be the best this year, or the next, or even the one after that. I've got my whole life to master this craft. I'm here for the long run, dedicated to becoming one of the best in the field.
 
-<p align="center">
-  <strong>⚠️ Warning:</strong> If you didn't hire me, that decision might age poorly. I'm not just here to code. I'm here to <strong>lead, innovate, and outgrow expectations</strong>. And yes, this one's very personal.
-</p>
+<div align="center">
 
-### 📝 Interviewer Note
-> ❌ Please don't ask me *"How do you stay up to date with tech?"*
+> ### ⚠️ Warning
+> **If you didn't hire me, that decision might age poorly.**
+> I'm not just here to code. I'm here to **lead, innovate, and outgrow expectations**.
+> And yes, this one's very personal.
+
+</div>
+
+<br>
+
+## 📝 Interviewer Note
+
+> ❌ **Please don't ask me** *"How do you stay up to date with tech?"*
 > If you can't already tell from my work, my consistency, and my drive, I genuinely can't help you answer that.
 
----
+<br>
 
-### 💬 Quotes That Drive Me
-> 💡 _"Find a job you enjoy doing, and you will never have to work a day in your life."_ – **Mark Twain**
-> 🧠 _"Once you stop learning, you start dying."_ – **Albert Einstein**
-> 🔁 _"Commit yourself to lifelong learning. The most valuable asset you'll ever have is your mind and what you put into it."_ – **Albert Einstein**
+## 💬 Quotes That Drive Me
 
----
+<table>
+<tr>
+<td>
 
-### 👨‍💻 Who Am I? (In Code)
+> 💡 *"Find a job you enjoy doing, and you will never have to work a day in your life."*
+> **— Mark Twain**
+
+</td>
+</tr>
+<tr>
+<td>
+
+> 🧠 *"Once you stop learning, you start dying."*
+> **— Albert Einstein**
+
+</td>
+</tr>
+<tr>
+<td>
+
+> 🔁 *"Commit yourself to lifelong learning. The most valuable asset you'll ever have is your mind and what you put into it."*
+> **— Albert Einstein**
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 👨‍💻 Who Am I? (In Code)
+
+<details open>
+<summary><b>Click to view my over-engineered self-introduction</b></summary>
+
+<br>
 
 ```java
 package profile;
@@ -137,7 +181,6 @@ public class WhoAmI {
         System.out.println(husain.introduce());
     }
 }
-
 ```
 
 **🖨️ Output:**
@@ -151,92 +194,173 @@ I hold a Bachelor's in Computer Science.
 Currently pursuing a Master's in Data Science, specializing in Machine Learning & Embedded Intelligence.
 ```
 
----
+</details>
+
+<br>
 
 ## 🏆 GitHub Trophies
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HusainCode&theme=discord&column=7&no-frame=true" />
-</p>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=HusainCode&theme=discord&column=7&no-frame=true&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+</div>
 
----
+<br>
 
 ## 🏅 Certifications
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/rhcsa.png" alt="Red Hat Certified System Administrator" width="100" />
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/PCAPI.png" alt="Certified Associate Python Programmer" width="140" />
-  <img src="https://img.shields.io/badge/NEXT_CERT-PENDING-important?style=for-the-badge" alt="Pending Certification Badge" />
+
+<table>
+<tr>
+<td align="center" width="140">
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials" width="100" height="100"/>
+  <br><sub><b>Linux Essentials</b></sub>
+</td>
+<td align="center" width="140">
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/azuredata.jpg" alt="Azure Data" width="100" height="100"/>
+  <br><sub><b>Azure Data</b></sub>
+</td>
+<td align="center" width="140">
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/blcokchain.png" alt="Blockchain" width="100" height="100"/>
+  <br><sub><b>Blockchain Expert</b></sub>
+</td>
+<td align="center" width="140">
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/rhcsa.png" alt="RHCSA" width="100" height="100"/>
+  <br><sub><b>RHCSA</b></sub>
+</td>
+<td align="center" width="140">
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/PCAPI.png" alt="Python" width="100" height="100"/>
+  <br><sub><b>Python PCAP</b></sub>
+</td>
+<td align="center" width="140">
+  <img src="https://img.shields.io/badge/NEXT_CERT-PENDING-important?style=for-the-badge" alt="Next Cert"/>
+  <br><sub><b>Coming Soon</b></sub>
+</td>
+</tr>
+</table>
+
 </div>
+
+<details>
+<summary><b>📜 View Certification Details</b></summary>
 
 <br>
 
 <div align="center">
 
-| 🧾 Certification                                | 🏛️ Issuer                             |
-|------------------------------------------------|----------------------------------------|
-| **Linux Essentials Certified**                 | Linux Professional Institute (LPI)     |
-| **Microsoft Certified: Azure Data Fundamentals** | Microsoft                             |
-| **Certified Blockchain Expert**                | Blockchain Council                     |
-| **Red Hat Certified System Administrator**     | Red Hat                                |
-| **Certified Associate Python Programmer**        | Python Institute                       |
-| **Next Certification**                         | 🔄 **Pending...**                      |
+| 🧾 Certification | 🏛️ Issuer |
+|:---|:---|
+| **Linux Essentials Certified** | Linux Professional Institute (LPI) |
+| **Microsoft Certified: Azure Data Fundamentals** | Microsoft |
+| **Certified Blockchain Expert** | Blockchain Council |
+| **Red Hat Certified System Administrator** | Red Hat |
+| **Certified Associate Python Programmer** | Python Institute |
+| **Next Certification** | 🔄 **Pending...** |
 
 </div>
 
----
+</details>
+
+<br>
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="GitHub Stats" height="180" />
-  <img src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideLabels=FFFFFF" alt="GitHub Streak" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="GitHub Stats" height="195" />
+  <img src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideLabels=FFFFFF" alt="GitHub Streak" height="195" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="Top Languages" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800&langs_count=8" alt="Top Languages" height="195" />
 </div>
 
----
+<br>
 
 ## 📈 Contribution Activity
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HusainCode&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area=true&hide_border=true&custom_title=Husain's%20Contribution%20Graph" alt="Contribution Graph" />
-</p>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HusainCode&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area=true&hide_border=true&custom_title=Husain's%20Contribution%20Graph" alt="Contribution Graph" width="95%" />
+</div>
 
----
+<br>
 
 ## 🛠️ Languages & Tools
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" alt="C" width="60" height="60" style="margin: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" alt="C++" width="60" height="60" style="margin: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" alt="Python" width="60" height="60" style="margin: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" alt="Java" width="60" height="60" style="margin: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Go-Logo_Aqua.svg" alt="Go" width="60" height="60" style="margin: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" alt="MySQL" width="60" height="60" style="margin: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" alt="Linux" width="60" height="60" style="margin: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/docker.jpeg" alt="Docker" width="60" height="60" style="margin: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Kubernetespic.png" alt="Kubernetes" width="60" height="60" style="margin: 10px;"/>
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/aws.jpg" alt="AWS" width="60" height="60" style="margin: 10px;"/>
-</p>
+<div align="center">
 
----
+<table>
+<tr>
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" width="48" height="48" alt="C" />
+    <br>C
+  </td>
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" width="48" height="48" alt="C++" />
+    <br>C++
+  </td>
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" width="48" height="48" alt="Python" />
+    <br>Python
+  </td>
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" width="48" height="48" alt="Java" />
+    <br>Java
+  </td>
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Go-Logo_Aqua.svg" width="48" height="48" alt="Go" />
+    <br>Go
+  </td>
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" width="48" height="48" alt="MySQL" />
+    <br>MySQL
+  </td>
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" width="48" height="48" alt="Linux" />
+    <br>Linux
+  </td>
+</tr>
+<tr>
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/docker.jpeg" width="48" height="48" alt="Docker" />
+    <br>Docker
+  </td>
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Kubernetespic.png" width="48" height="48" alt="Kubernetes" />
+    <br>Kubernetes
+  </td>
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/aws.jpg" width="48" height="48" alt="AWS" />
+    <br>AWS
+  </td>
+  <td align="center" width="90" colspan="4">
+  </td>
+</tr>
+</table>
+
+</div>
+
+<br>
 
 ## 🤝 Connect with Me
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b" target="_blank">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/5296501_linkedin_network_linkedin%20logo_icon.svg" alt="LinkedIn Profile" width="50" height="50"/>
-  </a>
-</p>
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/husain-alshaikhahmed-a6892617b)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HusainCode)
+[![Roadmap](https://img.shields.io/badge/Roadmap-View-00FFFF?style=for-the-badge&logo=googlesheets&logoColor=white)](https://roadmap.sh/r/embeddediot-software-engineers)
+
+</div>
+
+<br>
 
 ---
 
-<p align="center">
-  <i>⭐️ From <a href="https://github.com/HusainCode">HusainCode</a> - Building the future, one commit at a time.</i>
-</p>
+<div align="center">
+
+**⭐️ From [HusainCode](https://github.com/HusainCode)**
+
+*Building the future, one commit at a time.*
+
+![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
+
+</div>
