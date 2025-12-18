@@ -193,7 +193,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="GitHub Stats" />
+ ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true)
 </p>
 
 <p align="center">
