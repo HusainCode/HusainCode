@@ -1,4 +1,3 @@
-"""
 <p align="center">
   <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/One_Piece.webp" alt="Straw Hat Pirates Logo" width="200"/>
 </p>
@@ -165,11 +164,11 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 🏅 Certifications
 
 <div align="center">
-  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
-  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
-  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
-  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/rhcsa.png" alt="Red Hat Certified System Administrator" width="100" />
-  <img src="https://github.com/HusainCode/HusainCode/blob/main/Images/PCAPI.png" alt="Certified Associate Python Programmer" width="140" />
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Essentials-Linux_250_0.webp" alt="Linux Essentials Certified" width="100" />
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/azuredata.jpg" alt="Microsoft Certified: Azure Data Fundamentals" width="100" />
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/blcokchain.png" alt="Certified Blockchain Expert" width="100" />
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/rhcsa.png" alt="Red Hat Certified System Administrator" width="100" />
+  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/PCAPI.png" alt="Certified Associate Python Programmer" width="140" />
   <img src="https://img.shields.io/badge/NEXT_CERT-PENDING-important?style=for-the-badge" alt="Pending Certification Badge" />
 </div>
 
@@ -234,14 +233,6 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 ---
 
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
-
----
-
 ## 🤝 Connect with Me
 
 <p align="center">
@@ -255,4 +246,3 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 <p align="center">
   <i>⭐️ From <a href="https://github.com/HusainCode">HusainCode</a> - Building the future, one commit at a time.</i>
 </p>
-"""
