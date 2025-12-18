@@ -241,7 +241,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 </div>
 
-<details>
+<details open>
 <summary><b>📜 View Certification Details</b></summary>
 
 <br>
@@ -266,12 +266,12 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="GitHub Stats" height="195" />
-  <img src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideLabels=FFFFFF" alt="GitHub Streak" height="195" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&rank_icon=none" alt="GitHub Stats" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800&langs_count=8" alt="Top Languages" height="195" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&langs_count=8&layout=compact" alt="Top Languages" />
 </div>
 
 <br>
@@ -279,7 +279,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 📈 Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HusainCode&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area=true&hide_border=true&custom_title=Husain's%20Contribution%20Graph" alt="Contribution Graph" width="95%" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=HusainCode&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
 </div>
 
 <br>
