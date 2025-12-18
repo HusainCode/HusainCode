@@ -156,9 +156,9 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 ## 🏆 GitHub Trophies
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HusainCode&theme=discord&column=7&no-frame=true&margin-w=5&margin-h=5" alt="GitHub Trophies" />
-</p>
+<p align="center"> 
+  <img src="https://github-profile-trophy.vercel.app/?username=HusainCode&theme=discord&column=7&no-frame=true" />
+</p>>
 
 ---
 
