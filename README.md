@@ -85,7 +85,7 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 👨‍💻 Who Am I? (In Code)
+## 👨‍💻 Who Am I?
 
 <details open>
 <summary><b>Click to view my over-engineered self-introduction</b></summary>
@@ -302,54 +302,80 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 <table>
 <tr>
-  <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" width="48" height="48" alt="C" />
-    <br>C
-  </td>
-  <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" width="48" height="48" alt="C++" />
-    <br>C++
-  </td>
-  <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" width="48" height="48" alt="Python" />
-    <br>Python
-  </td>
+  <!-- Java -->
   <td align="center" width="90">
     <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" width="48" height="48" alt="Java" />
     <br>Java
   </td>
+
+  <!-- Spring -->
   <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Go-Logo_Aqua.svg" width="48" height="48" alt="Go" />
-    <br>Go
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/spring.svg" width="48" height="48" alt="Spring" />
+    <br>Spring
   </td>
+
+  <!-- Python -->
   <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" width="48" height="48" alt="MySQL" />
-    <br>MySQL
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" width="48" height="48" alt="Python" />
+    <br>Python
   </td>
+
+  <!-- C++ -->
   <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" width="48" height="48" alt="Linux" />
-    <br>Linux
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" width="48" height="48" alt="C++" />
+    <br>C++
+  </td>
+
+  <!-- C -->
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" width="48" height="48" alt="C" />
+    <br>C
+  </td>
+
+  <!-- TypeScript -->
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/typescript.svg" width="48" height="48" alt="TypeScript" />
+    <br>TypeScript
   </td>
 </tr>
+
 <tr>
+  <!-- Docker -->
   <td align="center" width="90">
     <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/docker.jpeg" width="48" height="48" alt="Docker" />
     <br>Docker
   </td>
+
+  <!-- Kubernetes -->
   <td align="center" width="90">
     <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Kubernetespic.png" width="48" height="48" alt="Kubernetes" />
     <br>Kubernetes
   </td>
+
+  <!-- AWS -->
   <td align="center" width="90">
     <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/aws.jpg" width="48" height="48" alt="AWS" />
     <br>AWS
   </td>
-  <td align="center" width="90" colspan="4">
+
+  <!-- MySQL -->
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" width="48" height="48" alt="MySQL" />
+    <br>MySQL
   </td>
+
+  <!-- Linux -->
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" width="48" height="48" alt="Linux" />
+    <br>Linux
+  </td>
+
+  <td align="center" width="90"></td>
 </tr>
 </table>
 
 </div>
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
