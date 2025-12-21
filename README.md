@@ -334,7 +334,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
   <!-- TypeScript -->
   <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/typescript.svg" width="48" height="48" alt="TypeScript" />
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Typescript.svg" width="48" height="48" alt="TypeScript" />
     <br>TypeScript
   </td>
 </tr>
