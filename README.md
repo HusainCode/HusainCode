@@ -310,7 +310,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
   <!-- Spring -->
   <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/spring.svg" width="48" height="48" alt="Spring" />
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/spring.jpg" width="48" height="48" alt="Spring" />
     <br>Spring
   </td>
 
