@@ -272,28 +272,12 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 📊 GitHub Stats
 
 <div align="center">
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HusainCode&custom_title=Always%20Building...&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area_color=00FFFF&area=true&hide_border=true&height=200" width="100%" alt="Always Building"/>
-
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="GitHub Stats" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&cache_seconds=1800" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&rank_icon=none" alt="GitHub Stats" />
-  <img
-  <img
-  src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&cache_seconds=1800"
-  width="49%"
-/>
-
-
-</div>
-
-<div align="center">
-  <img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&langs_count=6&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800"
-  width="49%"
-/>
-
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&langs_count=6&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="Top Languages" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
