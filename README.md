@@ -276,9 +276,18 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
   <img width="49%" src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&cache_seconds=1800" alt="GitHub Streak" />
 </div>
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&langs_count=6&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="Top Languages" />
-</div>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode
+&layout=compact
+&langs_count=8
+&hide=html,css,scss
+&exclude_repo=HusainCode
+&custom_title=Most%20Used%20Languages
+&theme=radical
+&hide_border=true
+&bg_color=0D1117
+&title_color=00FFFF
+&text_color=FFFFFF
+&cache_seconds=86400" />
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
