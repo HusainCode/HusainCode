@@ -85,7 +85,7 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 👨‍💻 Who Am I? (In Code)
+## 👨‍💻 Who Am I?
 
 <details open>
 <summary><b>Click to view my over-engineered self-introduction</b></summary>
@@ -207,7 +207,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HusainCode&theme=discord&column=7&no-frame=true&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=HusainCode&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
 </div>
 
 <br>
@@ -272,18 +272,12 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 📊 GitHub Stats
 
 <div align="center">
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HusainCode&custom_title=Always%20Building...&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&area_color=00FFFF&area=true&hide_border=true&height=200" width="100%" alt="Always Building"/>
-
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&rank_icon=github" alt="GitHub Stats" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideLabels=FFFFFF" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&rank_icon=none" alt="GitHub Stats" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&langs_count=8&layout=compact" alt="Top Languages" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&langs_count=8&hide=html,css,scss&exclude_repo=HusainCode&custom_title=Most%20Used%20Languages&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="Top Languages" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -302,54 +296,80 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 
 <table>
 <tr>
-  <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" width="48" height="48" alt="C" />
-    <br>C
-  </td>
-  <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" width="48" height="48" alt="C++" />
-    <br>C++
-  </td>
-  <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" width="48" height="48" alt="Python" />
-    <br>Python
-  </td>
+  <!-- Java -->
   <td align="center" width="90">
     <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/java.svg" width="48" height="48" alt="Java" />
     <br>Java
   </td>
+
+  <!-- Spring -->
   <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Go-Logo_Aqua.svg" width="48" height="48" alt="Go" />
-    <br>Go
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/spring.jpg" width="48" height="48" alt="Spring" />
+    <br>Spring
   </td>
+
+  <!-- Python -->
   <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" width="48" height="48" alt="MySQL" />
-    <br>MySQL
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/4518857_python_icon.svg" width="48" height="48" alt="Python" />
+    <br>Python
   </td>
+
+  <!-- C++ -->
   <td align="center" width="90">
-    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" width="48" height="48" alt="Linux" />
-    <br>Linux
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/cplusplus.svg" width="48" height="48" alt="C++" />
+    <br>C++
+  </td>
+
+  <!-- C -->
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/c.svg" width="48" height="48" alt="C" />
+    <br>C
+  </td>
+
+  <!-- TypeScript -->
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Typescript.svg" width="48" height="48" alt="TypeScript" />
+    <br>TypeScript
   </td>
 </tr>
+
 <tr>
+  <!-- Docker -->
   <td align="center" width="90">
     <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/docker.jpeg" width="48" height="48" alt="Docker" />
     <br>Docker
   </td>
+
+  <!-- Kubernetes -->
   <td align="center" width="90">
     <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/Kubernetespic.png" width="48" height="48" alt="Kubernetes" />
     <br>Kubernetes
   </td>
+
+  <!-- AWS -->
   <td align="center" width="90">
     <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/aws.jpg" width="48" height="48" alt="AWS" />
     <br>AWS
   </td>
-  <td align="center" width="90" colspan="4">
+
+  <!-- MySQL -->
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/mysql.svg" width="48" height="48" alt="MySQL" />
+    <br>MySQL
   </td>
+
+  <!-- Linux -->
+  <td align="center" width="90">
+    <img src="https://raw.githubusercontent.com/HusainCode/HusainCode/main/Images/linux.svg" width="48" height="48" alt="Linux" />
+    <br>Linux
+  </td>
+
+  <td align="center" width="90"></td>
 </tr>
 </table>
 
 </div>
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 

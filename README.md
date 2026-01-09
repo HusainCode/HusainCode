@@ -207,7 +207,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HusainCode&theme=discord&column=7&no-frame=true&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=HusainCode&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
 </div>
 
 <br>
@@ -272,22 +272,13 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="GitHub Stats" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&cache_seconds=1800" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=HusainCode&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&rank_icon=github" alt="GitHub Stats" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=HusainCode&theme=radical&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideLabels=FFFFFF" alt="GitHub Streak" />
 </div>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode
-&layout=compact
-&langs_count=8
-&hide=html,css,scss
-&exclude_repo=HusainCode
-&custom_title=Most%20Used%20Languages
-&theme=radical
-&hide_border=true
-&bg_color=0D1117
-&title_color=00FFFF
-&text_color=FFFFFF
-&cache_seconds=86400" />
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&langs_count=8&hide=html,css,scss&exclude_repo=HusainCode&custom_title=Most%20Used%20Languages&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800" alt="Top Languages" />
+</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
