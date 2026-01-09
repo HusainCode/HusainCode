@@ -277,7 +277,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical&hide_border=true&title_color=00FFFF&text_color=FFFFFF&langs_count=6" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact&theme=radical&hide_border=true&title_color=00FFFF&text_color=FFFFFF&langs_count=8&exclude_repo=HusainCode,software-engineering-books,docker-dca-certification-prep,linux-study,python-education-hub,PCAP-Study-Guide-,Master-of-Data-Science,Cpp-Study&hide=html,css,javascript" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
