@@ -275,7 +275,7 @@ Currently pursuing a Master's in Data Science, specializing in Machine Learning 
   <img width="49%" src="https://streak-stats.demolab.com?user=HusainCode" />
 </div>
 
-<div align="center">
+<div align="left">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HusainCode&layout=compact" />
 </div>
 
