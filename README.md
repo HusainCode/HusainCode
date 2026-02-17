@@ -92,101 +92,113 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 
 <br>
 
-```java
-package profile;
+```python
+from __future__ import annotations
+from abc import ABC, abstractmethod
+from dataclasses import dataclass
+from typing import Protocol
 
-import java.util.Objects;
 
-// --- Core Interfaces & Abstractions (Interface Segregation) --- //
-sealed interface Logger permits ConsoleLogger {
-    void log(String message);
-}
+# --- Core Interfaces & Abstractions (Interface Segregation) --- #
 
-interface Debuggable {
-    Logger logger();
-    default void debug(String message) {
-        logger().log("[DEBUG] " + message);
-    }
-}
+class Logger(Protocol):
+    def log(self, message: str) -> None:
+        ...
 
-// --- Concrete Implementation (Dependency Inversion) --- //
-final class ConsoleLogger implements Logger {
-    @Override
-    public void log(String message) {
-        System.out.println(message);
-    }
-}
 
-// --- Domain Layer (Single Responsibility Principle) --- //
-record Education(String bachelors, String masters, String specialization) {}
+class Debuggable(ABC):
+    @abstractmethod
+    def logger(self) -> Logger:
+        pass
 
-// --- Application Layer (Abstraction, Inheritance, Encapsulation) --- //
-abstract sealed class Engineer permits SoftwareEngineer {
-    protected abstract String introduce();
-}
+    def debug(self, message: str) -> None:
+        self.logger().log(f"[DEBUG] {message}")
 
-// --- High-Level Module (Open/Closed Principle + DI) --- //
-final class SoftwareEngineer extends Engineer implements Debuggable {
-    private final String name;
-    private final String passion;
-    private final String location;
-    private final Education education;
-    private final Logger logger;
 
-    public SoftwareEngineer(String name, String passion, String location, Education education, Logger logger) {
-        this.name = Objects.requireNonNull(name);
-        this.passion = Objects.requireNonNull(passion);
-        this.location = Objects.requireNonNull(location);
-        this.education = Objects.requireNonNull(education);
-        this.logger = Objects.requireNonNull(logger);
-        debug("SoftwareEngineer instance initialized.");
-    }
+# --- Concrete Implementation (Dependency Inversion) --- #
 
-    @Override
-    public Logger logger() {
-        return logger;
-    }
+class ConsoleLogger:
+    def log(self, message: str) -> None:
+        print(message)
 
-    @Override
-    public String introduce() {
-        debug("Generating introduction...");
-        return String.format(
-            "Hi there, I'm %s!\n" +
-            "Passionate about %s and solving real-world problems.\n" +
-            "Based in %s.\n" +
-            "I hold a Bachelor's in %s.\n" +
-            "Currently pursuing a Master's in %s, specializing in %s.",
-            name,
-            passion,
-            location,
-            education.bachelors(),
-            education.masters(),
-            education.specialization()
-        );
-    }
-}
 
-// --- Composition Root (Dependency Injection, Separation of Concerns) --- //
-public class WhoAmI {
-    public static void main(String[] args) {
-        Logger logger = new ConsoleLogger();
-        Education education = new Education(
-            "Computer Science",
-            "Data Science",
-            "Machine Learning & Embedded Intelligence"
-        );
+# --- Domain Layer (Single Responsibility Principle) --- #
 
-        SoftwareEngineer husain = new SoftwareEngineer(
-            "Husain",
-            "building smart software & embedded systems",
-            "Texas",
-            education,
-            logger
-        );
+@dataclass(frozen=True)
+class Education:
+    bachelors: str
+    masters: str
+    specialization: str
 
-        System.out.println(husain.introduce());
-    }
-}
+
+# --- Application Layer (Abstraction, Encapsulation) --- #
+
+class Engineer(ABC):
+    @abstractmethod
+    def introduce(self) -> str:
+        pass
+
+
+# --- High-Level Module (Open/Closed Principle + DI) --- #
+
+class SoftwareEngineer(Engineer, Debuggable):
+
+    def __init__(
+        self,
+        name: str,
+        passion: str,
+        location: str,
+        education: Education,
+        logger: Logger,
+    ):
+        self._name = name
+        self._passion = passion
+        self._location = location
+        self._education = education
+        self._logger = logger
+
+        self.debug("SoftwareEngineer instance initialized.")
+
+    def logger(self) -> Logger:
+        return self._logger
+
+    def introduce(self) -> str:
+        self.debug("Generating introduction...")
+        return (
+            f"Hi there, I'm {self._name}!\n"
+            f"Passionate about {self._passion} and solving real-world problems.\n"
+            f"Based in {self._location}.\n"
+            f"I hold a Bachelor's in {self._education.bachelors}.\n"
+            f"Currently pursuing a Master's in {self._education.masters}, "
+            f"specializing in {self._education.specialization}."
+        )
+
+
+# --- Composition Root (Dependency Injection) --- #
+
+def main() -> None:
+    logger = ConsoleLogger()
+
+    education = Education(
+        bachelors="Computer Science",
+        masters="Data Science",
+        specialization="Machine Learning & Embedded Intelligence",
+    )
+
+    husain = SoftwareEngineer(
+        name="Husain",
+        passion="building smart software & embedded systems",
+        location="Texas",
+        education=education,
+        logger=logger,
+    )
+
+    print(husain.introduce())
+
+
+if __name__ == "__main__":
+    main()
+
 ```
 
 **🖨️ Output:**
