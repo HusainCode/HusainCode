@@ -92,112 +92,132 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 
 <br>
 
-```python
-from __future__ import annotations
-from abc import ABC, abstractmethod
-from dataclasses import dataclass
-from typing import Protocol
+```C++
+#include <iostream>
+#include <string>
+#include <memory>
+
+// --- Core Interfaces & Abstractions (Interface Segregation) --- //
+
+class Logger {
+public:
+    virtual void log(const std::string& message) const = 0;
+    virtual ~Logger() = default;
+};
+
+class Debuggable {
+public:
+    virtual const Logger& logger() const = 0;
+
+    void debug(const std::string& message) const {
+        logger().log("[DEBUG] " + message);
+    }
+
+    virtual ~Debuggable() = default;
+};
 
 
-# --- Core Interfaces & Abstractions (Interface Segregation) --- #
+// --- Concrete Implementation (Dependency Inversion) --- //
 
-class Logger(Protocol):
-    def log(self, message: str) -> None:
-        ...
-
-
-class Debuggable(ABC):
-    @abstractmethod
-    def logger(self) -> Logger:
-        pass
-
-    def debug(self, message: str) -> None:
-        self.logger().log(f"[DEBUG] {message}")
+class ConsoleLogger : public Logger {
+public:
+    void log(const std::string& message) const override {
+        std::cout << message << std::endl;
+    }
+};
 
 
-# --- Concrete Implementation (Dependency Inversion) --- #
+// --- Domain Layer (Single Responsibility Principle) --- //
 
-class ConsoleLogger:
-    def log(self, message: str) -> None:
-        print(message)
+struct Education {
+    std::string bachelors;
+    std::string masters;
+    std::string specialization;
 
-
-# --- Domain Layer (Single Responsibility Principle) --- #
-
-@dataclass(frozen=True)
-class Education:
-    bachelors: str
-    masters: str
-    specialization: str
+    Education(const std::string& b,
+              const std::string& m,
+              const std::string& s)
+        : bachelors(b), masters(m), specialization(s) {}
+};
 
 
-# --- Application Layer (Abstraction, Encapsulation) --- #
+// --- Application Layer (Abstraction, Encapsulation) --- //
 
-class Engineer(ABC):
-    @abstractmethod
-    def introduce(self) -> str:
-        pass
-
-
-# --- High-Level Module (Open/Closed Principle + DI) --- #
-
-class SoftwareEngineer(Engineer, Debuggable):
-
-    def __init__(
-        self,
-        name: str,
-        passion: str,
-        location: str,
-        education: Education,
-        logger: Logger,
-    ):
-        self._name = name
-        self._passion = passion
-        self._location = location
-        self._education = education
-        self._logger = logger
-
-        self.debug("SoftwareEngineer instance initialized.")
-
-    def logger(self) -> Logger:
-        return self._logger
-
-    def introduce(self) -> str:
-        self.debug("Generating introduction...")
-        return (
-            f"Hi there, I'm {self._name}!\n"
-            f"Passionate about {self._passion} and solving real-world problems.\n"
-            f"Based in {self._location}.\n"
-            f"I hold a Bachelor's in {self._education.bachelors}.\n"
-            f"Currently pursuing a Master's in {self._education.masters}, "
-            f"specializing in {self._education.specialization}."
-        )
+class Engineer {
+public:
+    virtual std::string introduce() const = 0;
+    virtual ~Engineer() = default;
+};
 
 
-# --- Composition Root (Dependency Injection) --- #
+// --- High-Level Module (Open/Closed Principle + DI) --- //
 
-def main() -> None:
-    logger = ConsoleLogger()
+class SoftwareEngineer : public Engineer, public Debuggable {
+private:
+    std::string _name;
+    std::string _passion;
+    std::string _location;
+    Education _education;
+    std::shared_ptr<Logger> _logger;
 
-    education = Education(
-        bachelors="Computer Science",
-        masters="Data Science",
-        specialization="Machine Learning & Embedded Intelligence",
+public:
+    SoftwareEngineer(
+        const std::string& name,
+        const std::string& passion,
+        const std::string& location,
+        const Education& education,
+        std::shared_ptr<Logger> logger
     )
+        : _name(name),
+          _passion(passion),
+          _location(location),
+          _education(education),
+          _logger(std::move(logger)) {
+        debug("SoftwareEngineer instance initialized.");
+    }
 
-    husain = SoftwareEngineer(
-        name="Husain",
-        passion="building smart software & embedded systems",
-        location="Texas",
-        education=education,
-        logger=logger,
-    )
+    const Logger& logger() const override {
+        return *_logger;
+    }
 
-    print(husain.introduce())
+    std::string introduce() const override {
+        debug("Generating introduction...");
+        return
+            "Hi there, I'm " + _name + "!\n" +
+            "Passionate about " + _passion + " and solving real-world problems.\n" +
+            "Based in " + _location + ".\n" +
+            "I hold a Bachelor's in " + _education.bachelors + ".\n" +
+            "Currently pursuing a Master's in " + _education.masters +
+            ", specializing in " + _education.specialization + ".";
+    }
+};
 
 
-if __name__ == "__main__":
-    main()
+// --- Composition Root (Dependency Injection) --- //
+
+int main() {
+    auto logger = std::make_shared<ConsoleLogger>();
+
+    Education education(
+        "Computer Science",
+        "Data Science",
+        "Machine Learning & Embedded Intelligence"
+    );
+
+    SoftwareEngineer husain(
+        "Husain",
+        "building smart software & embedded systems",
+        "Texas",
+        education,
+        logger
+    );
+
+    std::cout << husain.introduce() << std::endl;
+
+    return 0;
+}
+
+
 
 ```
 
