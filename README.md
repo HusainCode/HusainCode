@@ -92,130 +92,114 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 
 <br>
 
-```C++
-#include <iostream>
-#include <string>
-#include <memory>
+```java
+import java.util.Objects;
 
-// --- Core Interfaces & Abstractions (Interface Segregation) --- //
+interface Logger {
+    void log(String message);
+}
 
-class Logger {
-public:
-    virtual void log(const std::string& message) const = 0;
-    virtual ~Logger() = default;
-};
+interface Debuggable {
+    Logger logger();
 
-class Debuggable {
-public:
-    virtual const Logger& logger() const = 0;
-
-    void debug(const std::string& message) const {
+    default void debug(String message) {
         logger().log("[DEBUG] " + message);
     }
+}
 
-    virtual ~Debuggable() = default;
-};
-
-
-// --- Concrete Implementation (Dependency Inversion) --- //
-
-class ConsoleLogger : public Logger {
-public:
-    void log(const std::string& message) const override {
-        std::cout << message << std::endl;
+final class ConsoleLogger implements Logger {
+    @Override
+    public void log(String message) {
+        System.out.println(message);
     }
-};
+}
 
+record Education(
+        String bachelors,
+        String masters,
+        String specialization
+) {
+}
 
-// --- Domain Layer (Single Responsibility Principle) --- //
+sealed interface Engineer permits SoftwareEngineer {
+    String introduce();
+}
 
-struct Education {
-    std::string bachelors;
-    std::string masters;
-    std::string specialization;
+final class SoftwareEngineer implements Engineer, Debuggable {
 
-    Education(const std::string& b,
-              const std::string& m,
-              const std::string& s)
-        : bachelors(b), masters(m), specialization(s) {}
-};
+    private final String name;
+    private final String passion;
+    private final String location;
+    private final Education education;
+    private final Logger logger;
 
+    public SoftwareEngineer(
+            String name,
+            String passion,
+            String location,
+            Education education,
+            Logger logger
+    ) {
+        this.name = Objects.requireNonNull(name);
+        this.passion = Objects.requireNonNull(passion);
+        this.location = Objects.requireNonNull(location);
+        this.education = Objects.requireNonNull(education);
+        this.logger = Objects.requireNonNull(logger);
 
-// --- Application Layer (Abstraction, Encapsulation) --- //
-
-class Engineer {
-public:
-    virtual std::string introduce() const = 0;
-    virtual ~Engineer() = default;
-};
-
-
-// --- High-Level Module (Open/Closed Principle + DI) --- //
-
-class SoftwareEngineer : public Engineer, public Debuggable {
-private:
-    std::string _name;
-    std::string _passion;
-    std::string _location;
-    Education _education;
-    std::shared_ptr<Logger> _logger;
-
-public:
-    SoftwareEngineer(
-        const std::string& name,
-        const std::string& passion,
-        const std::string& location,
-        const Education& education,
-        std::shared_ptr<Logger> logger
-    )
-        : _name(name),
-          _passion(passion),
-          _location(location),
-          _education(education),
-          _logger(std::move(logger)) {
         debug("SoftwareEngineer instance initialized.");
     }
 
-    const Logger& logger() const override {
-        return *_logger;
+    @Override
+    public Logger logger() {
+        return logger;
     }
 
-    std::string introduce() const override {
+    @Override
+    public String introduce() {
         debug("Generating introduction...");
-        return
-            "Hi there, I'm " + _name + "!\n" +
-            "Passionate about " + _passion + " and solving real-world problems.\n" +
-            "Based in " + _location + ".\n" +
-            "I hold a Bachelor's in " + _education.bachelors + ".\n" +
-            "Currently pursuing a Master's in " + _education.masters +
-            ", specializing in " + _education.specialization + ".";
+
+        return """
+                Hi there, I'm %s!
+                Passionate about %s and solving real-world problems.
+                Based in %s.
+                I hold a Bachelor's in %s.
+                Currently pursuing a Master's in %s, specializing in %s.
+                """
+                .formatted(
+                        name,
+                        passion,
+                        location,
+                        education.bachelors(),
+                        education.masters(),
+                        education.specialization()
+                );
     }
-};
-
-
-// --- Composition Root (Dependency Injection) --- //
-
-int main() {
-    auto logger = std::make_shared<ConsoleLogger>();
-
-    Education education(
-        "Computer Science",
-        "Data Science",
-        "Machine Learning & Embedded Intelligence"
-    );
-
-    SoftwareEngineer husain(
-        "Husain",
-        "building smart software & embedded systems",
-        "Texas",
-        education,
-        logger
-    );
-
-    std::cout << husain.introduce() << std::endl;
-
-    return 0;
 }
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Logger logger = new ConsoleLogger();
+
+        Education education = new Education(
+                "Computer Science",
+                "Software Engineering",
+                "Software Engineering"
+        );
+
+        Engineer husain = new SoftwareEngineer(
+                "Husain",
+                "building enterprise software with Java and Spring Boot",
+                "Texas",
+                education,
+                logger
+        );
+
+        System.out.println(husain.introduce());
+    }
+}
+
 
 
 
