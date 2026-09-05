@@ -87,11 +87,8 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 
 ## 👨‍💻 Who Am I?
 
-````md
-# 👨‍💻 Who Am I?
-
 <details open>
-<summary><b>Click to deploy my unnecessarily over-engineered self-introduction</b></summary>
+<summary><b>⚠️ Welcome to the Unjustifiably Over-Engineered Introduction of Myself — [ Click to close — the tech debt is already accumulating ]</b></summary>
 
 <br>
 
