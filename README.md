@@ -87,19 +87,21 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 
 ## 👨‍💻 Who Am I?
 
+````md
+# 👨‍💻 Who Am I?
+
 <details open>
-<summary><b>Click to view my over-engineered self-introduction</b></summary>
+<summary><b>Click to deploy my unnecessarily over-engineered self-introduction</b></summary>
 
 <br>
+
+## ☕ Step 1 — Initialize the Spring Boot Application
 
 ```java
 package com.husain.profile;
 
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Service;
 
 @SpringBootApplication
 public class HusainApplication {
@@ -107,120 +109,218 @@ public class HusainApplication {
     public static void main(String[] args) {
         SpringApplication.run(HusainApplication.class, args);
     }
-
-    @Bean
-    CommandLineRunner deploy(ProfileService profileService) {
-        return args -> System.out.println(profileService.introduce());
-    }
 }
+```
+
+## 🧠 Step 2 — Model the Engineer
+
+```java
+package com.husain.profile.domain;
+
+import java.util.List;
+
+public record Engineer(
+        String name,
+        String role,
+        String location,
+        Education education,
+        TechStack techStack
+) {}
 
 record Education(
         String bachelors,
         String masters,
-        String specialization
+        String status
 ) {}
 
 record TechStack(
         String language,
         String framework,
-        String messaging,
-        String database,
-        String containerization
+        List<String> backend,
+        List<String> infrastructure
 ) {}
+```
 
+## 🍃 Step 3 — Add the Business Logic
+
+```java
 @Service
-class ProfileService {
+public class EngineerService {
 
-    private final Education education = new Education(
-            "Computer Science",
-            "Software Engineering",
-            "Backend & Distributed Systems"
-    );
-
-    private final TechStack techStack = new TechStack(
-            "Java",
-            "Spring Boot",
-            "Apache Kafka",
-            "PostgreSQL",
-            "Docker"
-    );
-
-    public String introduce() {
+    public String introduce(Engineer engineer) {
         return """
-                Hi there, I'm Husain!
+                Hi there, I'm %s!
 
-                Backend Software Engineer
-                Based in Texas.
+                Role: %s
+                Location: %s
 
-                Building scalable, event-driven backend systems with:
-
-                ☕ Java
+                Primary Stack:
+                ☕ Java 21
                 🍃 Spring Boot
+                🌐 REST APIs
                 📡 Apache Kafka
                 🐘 PostgreSQL
+                ⚡ Redis
                 🐳 Docker
+                ☸️ Kubernetes
 
                 Education:
-                B.S. in Computer Science
-                M.S. in Software Engineering — In Progress
+                B.S. in %s
+                M.S. in %s — %s
 
                 Current mission:
-                Turn coffee into Spring beans,
+                Turn coffee into Java,
+                Java into Spring beans,
                 Spring beans into microservices,
                 microservices into Docker containers,
-                and somehow get everything to production.
+                containers into Kubernetes pods,
+                and somehow keep production healthy.
 
                 Status: 200 OK
-                """;
+                """.formatted(
+                        engineer.name(),
+                        engineer.role(),
+                        engineer.location(),
+                        engineer.education().bachelors(),
+                        engineer.education().masters(),
+                        engineer.education().status()
+                );
     }
 }
 ```
 
-## 🖨️ Output
+## 🌐 Step 4 — Obviously We Need a REST API
 
-```text
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
+```java
+@RestController
+@RequestMapping("/api/v1/engineers")
+public class EngineerController {
 
- :: Spring Boot ::  Husain Edition
+    private final EngineerService engineerService;
 
-Hi there, I'm Husain!
+    public EngineerController(EngineerService engineerService) {
+        this.engineerService = engineerService;
+    }
 
-Backend Software Engineer
-Based in Texas.
+    @GetMapping("/husain")
+    public ResponseEntity<String> getHusain() {
 
-Building scalable, event-driven backend systems with:
+        Engineer husain = EngineerFactory.create();
 
-☕ Java
-🍃 Spring Boot
-📡 Apache Kafka
-🐘 PostgreSQL
-🐳 Docker
-
-Education:
-B.S. in Computer Science
-M.S. in Software Engineering — In Progress
-
-Current mission:
-Turn coffee into Spring beans,
-Spring beans into microservices,
-microservices into Docker containers,
-and somehow get everything to production.
-
-Status: 200 OK
+        return ResponseEntity.ok(
+                engineerService.introduce(husain)
+        );
+    }
+}
 ```
 
-## 🐳 Docker
+```http
+GET /api/v1/engineers/husain
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Engineer-Status: Production-Ready
+```
+
+## 📡 Step 5 — One REST API Wasn't Distributed Enough
+
+```java
+@Service
+public class EngineerEventPublisher {
+
+    private final KafkaTemplate<String, EngineerEvent> kafkaTemplate;
+
+    public EngineerEventPublisher(
+            KafkaTemplate<String, EngineerEvent> kafkaTemplate
+    ) {
+        this.kafkaTemplate = kafkaTemplate;
+    }
+
+    public void publish(Engineer engineer) {
+
+        EngineerEvent event = new EngineerEvent(
+                engineer.name(),
+                "ENGINEER_DEPLOYED",
+                Instant.now()
+        );
+
+        kafkaTemplate.send(
+                "engineer-events",
+                engineer.name(),
+                event
+        );
+    }
+}
+```
+
+```text
+Topic: engineer-events
+Partitions: 12
+Replication Factor: 3
+
+{
+  "engineer": "Husain Alshaikhahmed",
+  "type": "ENGINEER_DEPLOYED",
+  "status": "READY"
+}
+```
+
+## 🐘 Step 6 — Persistence Because Apparently My Name Needs ACID Guarantees
+
+```yaml
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/engineers
+    username: husain
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+  kafka:
+    bootstrap-servers:
+      - kafka-1:9092
+      - kafka-2:9092
+      - kafka-3:9092
+
+  data:
+    redis:
+      host: redis
+      port: 6379
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - metrics
+          - prometheus
+```
+
+## ⚡ Step 7 — Cache Me Because Apparently Reading My Name Is Expensive
+
+```java
+@Cacheable(
+        value = "engineers",
+        key = "'husain'"
+)
+public Engineer findHusain() {
+    return engineerRepository
+            .findByName("Husain Alshaikhahmed")
+            .orElseThrow();
+}
+```
+
+## 🐳 Step 8 — Containerize the Engineer
 
 ```dockerfile
 FROM eclipse-temurin:21-jre
 
 LABEL engineer="Husain Alshaikhahmed"
-LABEL specialty="Java + Spring Boot"
+LABEL role="Backend Software Engineer"
+LABEL stack="Java + Spring Boot"
 
 WORKDIR /app
 
@@ -228,34 +328,258 @@ COPY target/husain-profile.jar app.jar
 
 EXPOSE 8080
 
-HEALTHCHECK CMD curl --fail http://localhost:8080/actuator/health || exit 1
+HEALTHCHECK \
+  --interval=30s \
+  --timeout=5s \
+  --retries=3 \
+  CMD curl --fail http://localhost:8080/actuator/health || exit 1
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
 ```
 
 ```bash
-docker build -t husain/software-engineer .
-docker run -p 8080:8080 husain/software-engineer
+./mvnw clean verify
+
+docker build \
+  -t husain/software-engineer:latest \
+  .
+
+docker run \
+  --name husain-api \
+  -p 8080:8080 \
+  husain/software-engineer:latest
+```
+
+## ☸️ Step 9 — One Husain Instance Is Clearly a Single Point of Failure
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: husain-software-engineer
+
+spec:
+  replicas: 3
+
+  selector:
+    matchLabels:
+      app: husain
+
+  template:
+    metadata:
+      labels:
+        app: husain
+
+    spec:
+      containers:
+        - name: husain
+          image: husain/software-engineer:latest
+
+          ports:
+            - containerPort: 8080
+
+          readinessProbe:
+            httpGet:
+              path: /actuator/health/readiness
+              port: 8080
+
+          livenessProbe:
+            httpGet:
+              path: /actuator/health/liveness
+              port: 8080
+
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "256Mi"
+
+            limits:
+              cpu: "1000m"
+              memory: "1Gi"
+```
+
+## 📈 Step 10 — Autoscale Me Based on Coffee Consumption
+
+```yaml
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+
+metadata:
+  name: husain-hpa
+
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: husain-software-engineer
+
+  minReplicas: 3
+  maxReplicas: 10
+
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 70
+```
+
+```bash
+kubectl apply -f k8s/
+kubectl get pods
+```
+
+```text
+NAME                                         READY   STATUS    RESTARTS
+husain-software-engineer-7f8d9c-2h8kl        1/1     Running   0
+husain-software-engineer-7f8d9c-7jd92        1/1     Running   0
+husain-software-engineer-7f8d9c-x91pz        1/1     Running   0
+```
+
+## 🔭 Step 11 — Production Must Be Observable
+
+```text
+                    Internet
+                       │
+                       ▼
+              ┌────────────────┐
+              │ Load Balancer  │
+              └───────┬────────┘
+                      │
+                      ▼
+             ┌─────────────────┐
+             │   Kubernetes    │
+             │    Service      │
+             └────────┬────────┘
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+      ┌────────┐  ┌────────┐  ┌────────┐
+      │ Husain │  │ Husain │  │ Husain │
+      │ Pod #1 │  │ Pod #2 │  │ Pod #3 │
+      └───┬────┘  └───┬────┘  └───┬────┘
+          │            │            │
+          └────────────┼────────────┘
+                       │
+              ┌────────┴─────────┐
+              │                  │
+              ▼                  ▼
+        ┌────────────┐      ┌──────────┐
+        │ PostgreSQL │      │  Kafka   │
+        └────────────┘      └──────────┘
+              │
+              ▼
+         ┌─────────┐
+         │  Redis  │
+         └─────────┘
+
+              Observability
+                    │
+          ┌─────────┴─────────┐
+          ▼                   ▼
+    ┌────────────┐      ┌──────────┐
+    │ Prometheus │ ───► │ Grafana  │
+    └────────────┘      └──────────┘
+```
+
+## 🖨️ Production Logs
+
+```text
+INFO  Starting HusainApplication using Java 21
+INFO  Active profile: production
+INFO  Spring Boot initialized
+INFO  HikariPool - PostgreSQL connection established
+INFO  KafkaProducer - Connected to Kafka cluster
+INFO  RedisConnectionFactory - Redis connected
+INFO  Kubernetes - 3/3 replicas READY
+INFO  Prometheus - Metrics endpoint exposed
+INFO  Actuator - Health status UP
+
+[ENGINEER] Husain Alshaikhahmed initialized successfully.
+
+Role:
+Backend Software Engineer
+
+Primary Stack:
+☕ Java 21
+🍃 Spring Boot
+🌐 REST APIs
+📡 Apache Kafka
+🐘 PostgreSQL
+⚡ Redis
+🐳 Docker
+☸️ Kubernetes
+
+Engineering Interests:
+→ Backend Engineering
+→ Distributed Systems
+→ Microservices
+→ Event-Driven Architecture
+→ Cloud Infrastructure
+
+Education:
+→ B.S. Computer Science
+→ M.S. Software Engineering [IN PROGRESS]
+
+Deployment Status: SUCCESS
+HTTP Status: 200 OK
+```
+
+## 🚨 Final Production Health Check
+
+```yaml
+production:
+  java: RUNNING
+  spring_boot: UP
+  rest_api: 200_OK
+
+messaging:
+  kafka: CONNECTED
+
+data:
+  postgresql: HEALTHY
+  redis: CACHED
+
+infrastructure:
+  docker: CONTAINERIZED
+  kubernetes:
+    desired_replicas: 3
+    ready_replicas: 3
+    status: HEALTHY
+
+observability:
+  actuator: UP
+  prometheus: SCRAPING
+  grafana: OBSERVING
+
+engineer:
+  name: Husain Alshaikhahmed
+  status: PRODUCTION_READY
+
+dependencies:
+  coffee:
+    status: CRITICAL
+    optional: false
 ```
 
 > **Build:** SUCCESS  
+> **Java 21:** RUNNING  
 > **Spring Boot:** UP  
+> **REST API:** 200 OK  
 > **Kafka:** CONNECTED  
-> **Docker:** RUNNING  
-> **Coffee:** REQUIRED ☕
-
-**🖨️ Output:**
-```
-[DEBUG] SoftwareEngineer instance initialized.
-[DEBUG] Generating introduction...
-Hi there, I'm Husain!
-Passionate about building smart software & embedded systems and solving real-world problems.
-Based in Texas.
-I hold a Bachelor's in Computer Science.
-Currently pursuing a Master's in Data Science, specializing in Machine Learning & Embedded Intelligence.
-```
+> **PostgreSQL:** HEALTHY  
+> **Redis:** CACHED  
+> **Docker:** CONTAINERIZED  
+> **Kubernetes:** 3/3 REPLICAS READY  
+> **Prometheus:** SCRAPING  
+> **Grafana:** OBSERVING  
+> **Husain:** PRODUCTION READY  
+> **Coffee:** CRITICAL DEPENDENCY ☕
 
 </details>
+````
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
