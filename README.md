@@ -93,24 +93,24 @@ I'm not aiming to be the best this year, or the next, or even the one after that
 <br>
 
 ```java
-import java.util.Objects;
+package com.husain.profile;
 
-interface Logger {
-    void log(String message);
-}
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Service;
 
-interface Debuggable {
-    Logger logger();
+@SpringBootApplication
+public class HusainApplication {
 
-    default void debug(String message) {
-        logger().log("[DEBUG] " + message);
+    public static void main(String[] args) {
+        SpringApplication.run(HusainApplication.class, args);
     }
-}
 
-final class ConsoleLogger implements Logger {
-    @Override
-    public void log(String message) {
-        System.out.println(message);
+    @Bean
+    CommandLineRunner deploy(ProfileService profileService) {
+        return args -> System.out.println(profileService.introduce());
     }
 }
 
@@ -118,92 +118,131 @@ record Education(
         String bachelors,
         String masters,
         String specialization
-) {
-}
+) {}
 
-sealed interface Engineer permits SoftwareEngineer {
-    String introduce();
-}
+record TechStack(
+        String language,
+        String framework,
+        String messaging,
+        String database,
+        String containerization
+) {}
 
-final class SoftwareEngineer implements Engineer, Debuggable {
+@Service
+class ProfileService {
 
-    private final String name;
-    private final String passion;
-    private final String location;
-    private final Education education;
-    private final Logger logger;
+    private final Education education = new Education(
+            "Computer Science",
+            "Software Engineering",
+            "Backend & Distributed Systems"
+    );
 
-    public SoftwareEngineer(
-            String name,
-            String passion,
-            String location,
-            Education education,
-            Logger logger
-    ) {
-        this.name = Objects.requireNonNull(name);
-        this.passion = Objects.requireNonNull(passion);
-        this.location = Objects.requireNonNull(location);
-        this.education = Objects.requireNonNull(education);
-        this.logger = Objects.requireNonNull(logger);
+    private final TechStack techStack = new TechStack(
+            "Java",
+            "Spring Boot",
+            "Apache Kafka",
+            "PostgreSQL",
+            "Docker"
+    );
 
-        debug("SoftwareEngineer instance initialized.");
-    }
-
-    @Override
-    public Logger logger() {
-        return logger;
-    }
-
-    @Override
     public String introduce() {
-        debug("Generating introduction...");
-
         return """
-                Hi there, I'm %s!
-                Passionate about %s and solving real-world problems.
-                Based in %s.
-                I hold a Bachelor's in %s.
-                Currently pursuing a Master's in %s, specializing in %s.
-                """
-                .formatted(
-                        name,
-                        passion,
-                        location,
-                        education.bachelors(),
-                        education.masters(),
-                        education.specialization()
-                );
+                Hi there, I'm Husain!
+
+                Backend Software Engineer
+                Based in Texas.
+
+                Building scalable, event-driven backend systems with:
+
+                ☕ Java
+                🍃 Spring Boot
+                📡 Apache Kafka
+                🐘 PostgreSQL
+                🐳 Docker
+
+                Education:
+                B.S. in Computer Science
+                M.S. in Software Engineering — In Progress
+
+                Current mission:
+                Turn coffee into Spring beans,
+                Spring beans into microservices,
+                microservices into Docker containers,
+                and somehow get everything to production.
+
+                Status: 200 OK
+                """;
     }
 }
-
-public class Main {
-
-    public static void main(String[] args) {
-
-        Logger logger = new ConsoleLogger();
-
-        Education education = new Education(
-                "Computer Science",
-                "Software Engineering",
-                "Software Engineering"
-        );
-
-        Engineer husain = new SoftwareEngineer(
-                "Husain",
-                "building enterprise software with Java and Spring Boot",
-                "Texas",
-                education,
-                logger
-        );
-
-        System.out.println(husain.introduce());
-    }
-}
-
-
-
-
 ```
+
+## 🖨️ Output
+
+```text
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::  Husain Edition
+
+Hi there, I'm Husain!
+
+Backend Software Engineer
+Based in Texas.
+
+Building scalable, event-driven backend systems with:
+
+☕ Java
+🍃 Spring Boot
+📡 Apache Kafka
+🐘 PostgreSQL
+🐳 Docker
+
+Education:
+B.S. in Computer Science
+M.S. in Software Engineering — In Progress
+
+Current mission:
+Turn coffee into Spring beans,
+Spring beans into microservices,
+microservices into Docker containers,
+and somehow get everything to production.
+
+Status: 200 OK
+```
+
+## 🐳 Docker
+
+```dockerfile
+FROM eclipse-temurin:21-jre
+
+LABEL engineer="Husain Alshaikhahmed"
+LABEL specialty="Java + Spring Boot"
+
+WORKDIR /app
+
+COPY target/husain-profile.jar app.jar
+
+EXPOSE 8080
+
+HEALTHCHECK CMD curl --fail http://localhost:8080/actuator/health || exit 1
+
+ENTRYPOINT ["java", "-jar", "app.jar"]
+```
+
+```bash
+docker build -t husain/software-engineer .
+docker run -p 8080:8080 husain/software-engineer
+```
+
+> **Build:** SUCCESS  
+> **Spring Boot:** UP  
+> **Kafka:** CONNECTED  
+> **Docker:** RUNNING  
+> **Coffee:** REQUIRED ☕
 
 **🖨️ Output:**
 ```
